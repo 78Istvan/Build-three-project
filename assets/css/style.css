@@ -14,9 +14,10 @@ ul {
     letter-spacing: 2px;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }    
 li {
-    float: right;
     margin-right: 0.5em;
 }
 li a {
@@ -36,13 +37,17 @@ header{
     border-width: 1px;
 }  
 /*--------------------------HeroImage------------------*/
-
    
 .top-image {
-    padding: 100px 50px 75px 100px;
-    border: 2rm;
-    margin-top: 100px;
+    padding: 150px 0;
+    border: 2px;
     text-align: center;
+    background-image: url("../images/gym-2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    color: white;
 }
 .middle {
     color: red;
