@@ -8,6 +8,10 @@ body {
     font-family: Noto Sans JP, sans-serif;
 }
 /*---------------navbar styling ------*/ 
+#top-image-main {
+    height: 610px;
+    margin-top: 65px;
+}
 ul {
     list-style-type: none;
     font-size: 100%;
@@ -31,7 +35,7 @@ li a {
   
 } 
 header{
-    margin: 0;
+    margin-top: 20px;
     padding: 35px 25px 35px 25px;
     background-color: black;
     background-size: contain;
@@ -66,7 +70,7 @@ header{
 
 
 .content {
-    background-color: #101010;
+    background-color: black;
 }
 .grid-container {
     display: grid;
