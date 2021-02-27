@@ -5,35 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body class="content">
-    <header>
-        <nav>
-<!---    <a href="#">GymTea</a> -->
-<!----------------------------------NavBar--------->
-            <ul>
-                <li>
-                    <a href="membership.html">Membership</a>
-                </li>
-                <li>
-                    <a href="#facilities.html">Facilities</a>
+   <header>
+    <a href="#main-menu"
+       id="main-menu-toggle"
+       class="menu-toggle"
+       aria-label="Open main menu">
+        <span class="sr-only">Open main menu</span>
+        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+    </a>
 
-                </li>
-                <li>
-                     <a  id="home" class="active middle" href="index.html">Home</a>
-                </li>
-                <li>
-                   <a href="classes.html">Classes</a>
-                </li>
-               
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <!----------------/NavBar-------->
-        <!---------HeaderImage------------>
-    </header>
+    <nav id="main-menu" class="main-menu" aria-label="Main menu">
+        <a href="#main-menu-toggle"
+           id="main-menu-close"
+           class="menu-close"
+           aria-label="Close main menu">
+            <span class="sr-only">Close main menu</span>
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </a>
+        <ul>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Classes</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <a href="#main-menu-toggle"
+       class="backdrop"
+       tabindex="-1"
+       aria-hidden="true" hidden></a>
+</header>
     <section id="top-image-main"> 
      <div class="top-image">
          <!--    <h1>Vidd ki a bilit vagy idd ki a bilit!!</h1> -->
@@ -42,34 +46,83 @@
       </section>
       <!---------------/HeaderImage------------->
       <!-----------AboutContent and Img--------->
-    <section>
-         <h2>About</h2>
-    <div class="grid-container">
-        
-        <div class="grid-child-image">
-        
-              <img src="https://t3.ftcdn.net/jpg/01/14/40/14/360_F_114401420_yN5sJ20f0wk8xuCLn6qBGS9gjEwvSZNG.jpg">
+    
+         
+   <section id="trainers">
+        <h2>Our Heroes</h2>
+    <div id="left-image">
+        <h3>Jessica Murphy</h3>
+        <div class="first-trainer">
+          <div id="first-trainer-image">
+            
+            </div>
         </div>
-        <div class="grid-child-text">
+           <div class="first-text">
               <p>
-                  GtmTea Gym & Fitness is an ultra-modernunisex fitness
-                  center with the best amenitiesand training equipment. We offer a wide range of
-                  classes and exercising programs,ailored to
-                  improve stamina and fitness goals of each gym member,
-                  individually and at any level.
-             <br>
-             <br>
-                  GymTea Gym & Fitness is a dynamic and
-                  diverse gym with a variety of group classes
-                  for every fitness level and different interests,
-                  guided by the trainers who are to answer the gym 
-                  members needs at any time. Trainers at
-                  GymTeaGym & Fitness meet the highest
-                  standards expertise
-                  in all training programs.
+                She is our strongest and most powerfull trainer, because she never get to tired ever.
+                Anything you ask her to do she never tells you no, because she is te best!
               </p>
+          </div>
+       </div>
+
+    <div id="right-image">
+         <h3>Susan Gibbon</h3>
+        <div class="second-trainer">
+            <div class="second-trainer-image">
+                
+            </div>
         </div>
-    </div> 
+           <div class="second-text">
+              <p>
+                She is our strongest and most powerfull trainer, because she never get to tired ever.
+                Anything you ask her to do she never tells you no, because she is te best! She is always happy and smily never cry!
+              </p>
+          </div>
+       </div>
+    
+    
+        <div id="center-image">
+            <h3>Julia Smith</h3>
+        <div class="third-trainer">
+            <div id="third-trainer-image">
+                
+            </div>
+        </div>
+           <div class="third-text">
+              <p>
+                She is our strongest and most powerfull trainer, because she never get to tired ever.
+                Anything you ask her to do she never tells you no, because she is te best! She is always happy and smily never cry!
+              </p>
+          </div>
+       </div>
+    </section>
+    <section>
+        <h2 id="about">About Us</h2>
+        <div class="content-wrap">
+        <div class="about-img">
+            
+               
+               <img  class="middle-img" src="https://c4.wallpaperflare.com/wallpaper/206/268/839/pose-muscle-muscle-rod-press-hd-wallpaper-preview.jpg">
+           
+        </div>
+        <div class="about-text-wrap">
+           
+              
+              <p id="middle-text">
+                  We want to help you live a fit and healthy
+                   lifestyle! We do this by helping you find 
+                   the most suitable equipment for your home 
+                   gym, studio or commercial gym, keeping your
+                    budget, lifestyle and fitness goals in mind.
+                    We stock a wide range of gym equipment, with 
+                    strength equipment, cardio, cross training and
+                     so much more. Our awesome team is always keen 
+                     to help, so please call us to discuss your needs.
+              </p>
+            
+        </div>
+        </div>
+   
     </section>
     <!------------/AboutContent-and-Img--------->
     <!-----------Trainers---------------->

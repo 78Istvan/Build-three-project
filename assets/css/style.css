@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import "navigation.css";
 body {
     margin: 0;
     padding: 0;
@@ -12,17 +13,17 @@ body {
     height: 610px;
     margin-top: 65px;
 }
-ul {
+/*-ul {
     list-style-type: none;
     font-size: 100%;
     letter-spacing: 2px;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center;--
    
     
-}    
+} */   
 li {
     margin-right: 0.5em;
 }
@@ -32,15 +33,12 @@ li a {
   text-decoration: none;
   color: #A9A9A9;
   font-weight: 700;
-  
-} 
-header{
-    margin-top: 20px;
-    padding: 35px 25px 35px 25px;
-    background-color: black;
-    background-size: contain;
-    
 }
+  
+
+
+    
+
  a:hover {
     color: #ffffff;
 }
@@ -101,4 +99,146 @@ p {
     text-align: left;
     color: #ffffff;
     
+}
+/*------------------------past---------------*/
+#trainers {
+    
+    background-color: #07070c;
+    display: flex;
+
+}
+
+#left-image {
+    width: 33%;
+  
+    
+    padding-top: 10px;
+}
+
+
+#right-image {
+    width: 33%;
+    
+    
+    padding-top: 10px;
+}
+
+#center-image {
+    width: 33%;
+   
+  
+    padding-top: 10px;
+}
+.first-trainer {
+    width: 200px;
+    height: 200px;
+  /*  border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px; */
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url(../images/face-1.jpg);
+}
+#first-trainer-image 
+    
+ 
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #A9A9A9;
+    text-decoration: underline;
+}
+    
+
+h3 {
+    text-align: center;
+    color: #A9A9A9;
+}
+.first-text {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: azure;
+}
+.second-trainer {
+    width: 200px;
+    height: 200px;
+   /* border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px; */
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url(../images/face-2.jpg);
+}
+
+
+.second-text {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #A9A9A9;
+}
+.third-trainer {
+    width: 200px;
+    height: 200px;
+  /*  border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px; */
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url(../images/face-3.jpg);
+}
+.third-text {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #A9A9A9;
+}
+/*---------------------second section-----*/
+.about-img {
+ max-width: 48%;
+  
+    
+   
+}
+.content-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.about-text {
+   max-width: 48%;
+   
+}
+#middle-text {
+    
+    color: #A9A9A9;
+    
+    
+    
+    font-size: 22px;
+   
+    
+}   
+
+
+#about {
+    color: #A9A9A9;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 50px;
+
+    
+}
+.middle-img {
+    width: 100%;
+    height: auto;
+    
+}
+}
+footer{
+    height: 300px;
+}
+.about-text-wrap {
+    max-width: 48%;
+    align-self: center;
 }
