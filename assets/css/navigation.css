@@ -207,11 +207,15 @@ article h2 {
         height: auto;
         width: auto;
         background: none;
+        justify-content: center;
+        
     }
 
     .main-menu a {
-        color: #06c;
-        border: 0 !important; /* Remove borders from off-canvas styling */
+        color:  #A9A9A9;
+        border: 0 !important;
+        text-align: center;
+        /* Remove borders from off-canvas styling */
     }
 
     .main-menu a:hover,
@@ -220,4 +224,5 @@ article h2 {
         color: #fff;
     }
 }
+
 
