@@ -13,17 +13,7 @@ body {
     height: 610px;
     margin-top: 65px;
 }
-/*-ul {
-    list-style-type: none;
-    font-size: 100%;
-    letter-spacing: 2px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;--
-   
-    
-} */   
+
 li {
     margin-right: 0.5em;
 }
@@ -33,20 +23,18 @@ li a {
   text-decoration: none;
   color: #A9A9A9;
   font-weight: 700;
+    
 }
   
-
-
-    
-
- a:hover {
-    color: #ffffff;
+a:hover {
+    color: red;
 }
   
 .active {
     border-bottom-style: solid;
     border-width: 1px;
     border-color: #A9A9A9;
+    
 }
 .middle {
     color: #A9A9A9;
@@ -63,6 +51,100 @@ li a {
     background-position: center;
     background-color: black;
     color: white;
+}
+/*------------------------------------------------------------OurHeroes------------*/
+#heroes-test{
+    text-align: center;
+    color: #A9A9A9;
+    text-decoration: underline;
+    margin-bottom: 50px;
+        
+}
+.name {
+    color:  #A9A9A9;
+    margin-bottom: 35px;
+}
+#trainers {
+    
+    background-color: #07070c;
+    display: flex;
+
+}
+
+#left-image {
+    width: 33%;
+    padding-top: 10px;
+}
+
+
+#right-image {
+    width: 33%;
+    padding-top: 10px;
+}
+
+#center-image {
+    width: 33%;
+    padding-top: 10px;
+}
+.first-trainer {
+    width: 200px;
+    height: 200px;
+ 
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url(../images/face-1.jpg);
+}
+#first-trainer-image 
+    
+ 
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #A9A9A9;
+    text-decoration: underline;
+}
+    
+
+h3 {
+    text-align: center;
+    color: #A9A9A9;
+}
+.first-text {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: azure;
+    margin-top: 35px;
+    font-size: 18px;
+}
+.second-trainer {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url(../images/face-2.jpg);
+}
+
+
+.second-text {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #A9A9A9;
+    margin-top: 35px;
+    font-size: 18px;
+}
+.third-trainer {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url(../images/face-3.jpg);
+}
+.third-text {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #A9A9A9;
+    margin-top: 35px;
+    font-size: 18px;
 }
 /*-------------------------------------------About section----------------*/
 
@@ -100,103 +182,9 @@ p {
     color: #ffffff;
     
 }
-/*------------------------past---------------*/
-#trainers {
-    
-    background-color: #07070c;
-    display: flex;
 
-}
-
-#left-image {
-    width: 33%;
-  
-    
-    padding-top: 10px;
-}
-
-
-#right-image {
-    width: 33%;
-    
-    
-    padding-top: 10px;
-}
-
-#center-image {
-    width: 33%;
-   
-  
-    padding-top: 10px;
-}
-.first-trainer {
-    width: 200px;
-    height: 200px;
-  /*  border-style: solid;
-    border-color: #ffffff;
-    border-width: 2px; */
-    border-radius: 50%;
-    margin: 0 auto;
-    background-image: url(../images/face-1.jpg);
-}
-#first-trainer-image 
-    
- 
-h2 {
-    text-align: center;
-    font-size: 28px;
-    color: #A9A9A9;
-    text-decoration: underline;
-}
-    
-
-h3 {
-    text-align: center;
-    color: #A9A9A9;
-}
-.first-text {
-    margin-left: 100px;
-    margin-right: 100px;
-    color: azure;
-}
-.second-trainer {
-    width: 200px;
-    height: 200px;
-   /* border-style: solid;
-    border-color: #ffffff;
-    border-width: 2px; */
-    border-radius: 50%;
-    margin: 0 auto;
-    background-image: url(../images/face-2.jpg);
-}
-
-
-.second-text {
-    margin-left: 100px;
-    margin-right: 100px;
-    color: #A9A9A9;
-}
-.third-trainer {
-    width: 200px;
-    height: 200px;
-  /*  border-style: solid;
-    border-color: #ffffff;
-    border-width: 2px; */
-    border-radius: 50%;
-    margin: 0 auto;
-    background-image: url(../images/face-3.jpg);
-}
-.third-text {
-    margin-left: 100px;
-    margin-right: 100px;
-    color: #A9A9A9;
-}
-/*---------------------second section-----*/
 .about-img {
  max-width: 48%;
-  
-    
-   
 }
 .content-wrap {
     display: flex;
@@ -210,13 +198,8 @@ h3 {
 #middle-text {
     
     color: #A9A9A9;
-    
-    
-    
     font-size: 22px;
-   
-    
-}   
+   }   
 
 
 #about {
@@ -226,15 +209,13 @@ h3 {
     text-transform: uppercase;
     text-decoration: underline;
     margin-bottom: 50px;
-
-    
 }
 .middle-img {
     width: 100%;
     height: auto;
     
 }
-}
+
 footer{
     height: 300px;
 }
@@ -242,3 +223,4 @@ footer{
     max-width: 48%;
     align-self: center;
 }
+<!-------------------------------------Footer-Section--------------->

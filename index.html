@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GymTea</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
@@ -25,12 +25,12 @@
             <span class="sr-only">Close main menu</span>
             <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
         </a>
-        <ul>
-            <li><a href="#">Membership</a></li>
-            <li><a href="#">Facilities</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Classes</a></li>
-            <li><a href="#">Contact</a></li>
+        <ul class="navigation">
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <a href="#main-menu-toggle"
@@ -46,12 +46,16 @@
       </section>
       <!---------------/HeaderImage------------->
       <!-----------AboutContent and Img--------->
-    
+    <div id="heroes-test">
+        <h1>Our Heroes</h1>
+       </div>   
          
    <section id="trainers">
+   <!--    <div id="heroes-test">
         <h2>Our Heroes</h2>
+       </div>   -->
     <div id="left-image">
-        <h3>Jessica Murphy</h3>
+        <h3 class="name">Jessica Murphy</h3>
         <div class="first-trainer">
           <div id="first-trainer-image">
             
@@ -66,7 +70,7 @@
        </div>
 
     <div id="right-image">
-         <h3>Susan Gibbon</h3>
+         <h3 class="name">Susan Gibbon</h3>
         <div class="second-trainer">
             <div class="second-trainer-image">
                 
@@ -82,7 +86,7 @@
     
     
         <div id="center-image">
-            <h3>Julia Smith</h3>
+            <h3 class="name">Julia Smith</h3>
         <div class="third-trainer">
             <div id="third-trainer-image">
                 

@@ -40,6 +40,7 @@
     transition: left 0.3s ease,
     box-shadow 0.3s ease;
     z-index: 999;
+    
 }
 
 .main-menu ul {
@@ -53,6 +54,7 @@
     min-height: 100%;
     width: 200px;
     background: #1a1a1a;
+    
 }
 
 .main-menu a {
@@ -60,13 +62,15 @@
     padding: .75em 15px;
     line-height: 1em;
     font-size: 1em;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     border-bottom: 1px solid #383838;
+    
 }
 
 .main-menu li:first-child a {
     border-top: 1px solid #383838;
+    
 }
 
 .main-menu a:hover,
@@ -216,3 +220,4 @@ article h2 {
         color: #fff;
     }
 }
+
