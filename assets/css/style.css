@@ -39,7 +39,7 @@ a:hover {
 .middle {
     color: #A9A9A9;
 }
-/*--------------------------Top-Image------------------*/
+/*--------------------------Top-Image-and text-----------------*/
    
 .top-image {
     padding: 150px 0;
@@ -51,6 +51,26 @@ a:hover {
     background-position: center;
     background-color: black;
     color: white;
+}
+.motivation {
+    height: 200px;
+    
+    
+}
+
+.motivation p {
+    text-align: center;
+    margin-top: 8%;
+    color: A9A9A9;
+    font-family: Garamond, serif;
+    font-size: 50px;
+}
+#motivation-text {
+    background-color: #A9A9A9;
+    color:#000000;
+}
+hr {
+    color:#A9A9A9;
 }
 /*------------------------------------------------------------OurHeroes------------*/
 #heroes-test{
@@ -94,16 +114,7 @@ a:hover {
     margin: 0 auto;
     background-image: url(../images/face-1.jpg);
 }
-#first-trainer-image 
-    
- 
-h2 {
-    text-align: center;
-    font-size: 28px;
-    color: #A9A9A9;
-    text-decoration: underline;
-}
-    
+
 
 h3 {
     text-align: center;
@@ -112,8 +123,9 @@ h3 {
 .first-text {
     margin-left: 100px;
     margin-right: 100px;
-    color: azure;
+    color: #A9A9A9;
     margin-top: 35px;
+    font-size: 28px;
 }
 .second-trainer {
     width: 200px;
@@ -129,6 +141,7 @@ h3 {
     margin-right: 100px;
     color: #A9A9A9;
      margin-top: 35px;
+     font-size: 28px;
 }
 .third-trainer {
     width: 200px;
@@ -170,14 +183,14 @@ h3 {
     float: right;
     width: fit-content;
 }
-h2 {
+ /*h2 {
     text-align: center;
-    font-size: 33px;
-    color: #ffffff;
-}
+    font-size: 45px;
+    color: #A9A9A9;
+}*/
 p {
     text-align: left;
-    color: #ffffff;
+    color: #A9A9A9;
     
 }
 
@@ -200,10 +213,10 @@ p {
    }   
 
 
-#about {
+.about {
     color: #A9A9A9;
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
     text-transform: uppercase;
     text-decoration: underline;
     margin-bottom: 50px;
@@ -213,12 +226,27 @@ p {
     height: auto;
     
 }
-
-footer{
-    height: 300px;
-}
 .about-text-wrap {
     max-width: 48%;
     align-self: center;
 }
-<!-------------------------------------Footer-Section--------------->
+/*------------------------------------Footer-Section---------------*/
+footer{
+    height: 300px;
+}
+.bottom-block {
+    text-align: center;
+    padding: 200px 0 0 380px;
+}
+.bottom-block li {
+    display: inline;
+}
+.bottom-block li i {
+    font-size: 28px;
+    margin: 45px;
+}
+   
+}
+i:hover {
+    color: #A9A9A9;
+}
