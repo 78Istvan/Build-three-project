@@ -234,7 +234,7 @@ p {
 footer{
     height: 300px;
 }
-.bottom-block {
+ /*.bottom-block {
     text-align: center;
     padding: 200px 0 0 380px;
 }
@@ -249,4 +249,10 @@ footer{
 }
 i:hover {
     color: #A9A9A9;
+} 
+    */
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
