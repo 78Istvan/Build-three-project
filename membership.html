@@ -3,52 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GymTea</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a312b27e8f.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header>
+  <body>
+     <header>
+    <a href="#main-menu"
+       id="main-menu-toggle"
+       class="menu-toggle"
+       aria-label="Open main menu">
+        <span class="sr-only">Open main menu</span>
+        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+    </a>
+<!--------------------------------------------NavBar---------------->
+    <nav id="main-menu" class="main-menu" aria-label="Main menu">
+        <a href="#main-menu-toggle"
+           id="main-menu-close"
+           class="menu-close"
+           aria-label="Close main menu">
+            <span class="sr-only">Close main menu</span>
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </a>
+        <ul class="navigation">
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <a href="#main-menu-toggle"
+       class="backdrop"
+       tabindex="-1"
+       aria-hidden="true" hidden></a>
+</header>
+     <!---------------------------------Top-Image-Sec-->
+   <img src="https://mswordidcards.com/wp-content/uploads/2018/04/Gym-id-3-CRC.jpg" class="img-fluid" alt="membership-card" no-repeat cover >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <img src="..." class="img-thumbnail" alt="...">
 
-        <nav>
-            
-        <!---    <a href="#">GymTea</a> -->
-            <ul>
-                <li>
-                    <a class="active" href="membership.html">Membership</a>
-                </li>
-                <li>
-                    <a href="facilities.html">Facilities</a>
-
-                </li>
-                <li>
-                     <a href="index.html">Home</a>
-                </li>
-                <li>
-                   <a href="classes.html">Classes</a>
-                </li>
-               
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section> 
-     <div class="top-image">
-             <h1>HELLO BELLo Pecs vagy -e</h1>
-         <p>Te vagy a pecs</p>
-       </div>
-      
-    </section>
-   
-    <section>
-        about, and a picture
-    </section>
-    <section>
-        trainers photos and a little discription
-    </section>
-    <footer>
-        address, and social link copyright text
-    </footer>
-</body>
+    
+  </body>
 </html>

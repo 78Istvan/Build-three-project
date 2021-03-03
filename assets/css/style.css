@@ -234,25 +234,17 @@ p {
 footer{
     height: 300px;
 }
- /*.bottom-block {
-    text-align: center;
-    padding: 200px 0 0 380px;
-}
-.bottom-block li {
-    display: inline;
-}
-.bottom-block li i {
-    font-size: 28px;
-    margin: 45px;
-}
-   
-}
-i:hover {
-    color: #A9A9A9;
-} 
-    */
+
 .container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+}
+address {
+    color: #A9A9A9;
+}
+.bottom-block {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
 }
