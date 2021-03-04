@@ -250,7 +250,7 @@ p {
 }
 /*------------------------------------Footer-Section---------------*/
 footer{
-    height: 300px;
+    height: 280px;
 }
 
 .container {
@@ -261,6 +261,7 @@ footer{
 }
 address {
     color: #A9A9A9;
+    margin-top: 40px;
 }
 .bottom-block {
     display: flex;
@@ -270,10 +271,12 @@ address {
     font-size: 250%;
     margin-top: 10%;
 } 
-
+.bottom-block a:hover {
+    color: #ffffff;
 }
+
 .bottom-block i {
-    font-size: 250%;
+    font-size: 140%;
    
 }
 .footer-content {
@@ -286,6 +289,17 @@ address {
 }
 .open-h {
     font-size: 30px;
-    margin: 20px 0 10px;
+    margin: 40px 0 10px;
     color: #A9A9A9;;
+}
+/*---------------------Copyright---------------------*/
+.copy-r {
+    color: #ffffff;
+    background-color: #000000;
+    height: 15px;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+.copy-r p {
+    text-align: center;
 }
