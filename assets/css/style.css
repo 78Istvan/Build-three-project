@@ -9,10 +9,7 @@ body {
     font-family: Noto Sans JP, sans-serif;
 }
 /*---------------navbar styling ------*/ 
-#top-image-main {
-    height: 610px;
-    margin-top: 65px;
-}
+
 
 li {
     margin-right: 0.5em;
@@ -27,7 +24,7 @@ li a {
 }
   
 a:hover {
-    color: red;
+    color: #A9A9A9;
 }
   
 .active {
@@ -38,6 +35,9 @@ a:hover {
 }
 .middle {
     color: #A9A9A9;
+}
+.main-nav {
+    background-color: #000000;
 }
 /*--------------------------Top-Image-and text-----------------*/
    
@@ -51,6 +51,11 @@ a:hover {
     background-position: center;
     background-color: black;
     color: white;
+}
+#top-image-main {
+    height: 610px;
+    padding-top: 65px;
+    background-color: #000000;
 }
 .motivation {
     height: 200px;
@@ -69,19 +74,27 @@ a:hover {
     background-color: #A9A9A9;
     color:#000000;
 }
-hr {
-    color:#A9A9A9;
+
 }
 /*------------------------------------------------------------OurHeroes------------*/
 #heroes-test{
     text-align: center;
-    color: #A9A9A9;
+    color: #4a4a4a;
     text-decoration: underline;
     margin-bottom: 50px;
+    background-color: #ffffff;
         
 }
+.our-trainers {
+    color: #4a4a4a;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
 .name {
-    color:  #A9A9A9;
+    color:  #4a4a4a;
     margin-bottom: 35px;
 }
 #trainers {
@@ -123,9 +136,12 @@ h3 {
 .first-text {
     margin-left: 100px;
     margin-right: 100px;
-    color: #A9A9A9;
+    color: #4a4a4a;
     margin-top: 35px;
     font-size: 28px;
+}
+.first-text p {
+    color: #4a4a4a;
 }
 .second-trainer {
     width: 200px;
@@ -139,9 +155,12 @@ h3 {
 .second-text {
     margin-left: 100px;
     margin-right: 100px;
-    color: #A9A9A9;
+    color: #4a4a4a;
      margin-top: 35px;
      font-size: 28px;
+}
+.second-text p {
+    color: #4a4a4a;
 }
 .third-trainer {
     width: 200px;
@@ -153,15 +172,18 @@ h3 {
 .third-text {
     margin-left: 100px;
     margin-right: 100px;
-    color: #A9A9A9;
+    color: #4a4a4a;
     margin-top: 35px;
     font-size: 28px;
 }
+.third-text p {
+    color: #4a4a4a;
+}
 /*-------------------------------------------About section----------------*/
 
-
-.content {
-    background-color: black;
+.about-content {
+    background-color: #000000;
+}
 }
 .grid-container {
     display: grid;
@@ -183,11 +205,7 @@ h3 {
     float: right;
     width: fit-content;
 }
- /*h2 {
-    text-align: center;
-    font-size: 45px;
-    color: #A9A9A9;
-}*/
+
 p {
     text-align: left;
     color: #A9A9A9;
@@ -257,4 +275,17 @@ address {
 .bottom-block i {
     font-size: 250%;
    
+}
+.footer-content {
+    background-color: #000000;
+}
+.open-t {
+    color: #A9A9A9;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.open-h {
+    font-size: 30px;
+    margin: 20px 0 10px;
+    color: #A9A9A9;;
 }
