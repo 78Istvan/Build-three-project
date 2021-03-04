@@ -86,7 +86,7 @@ hr {
 }
 #trainers {
     
-    background-color: #07070c;
+    background-color: #ffffff;
     display: flex;
 
 }
@@ -239,6 +239,7 @@ footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+  
 }
 address {
     color: #A9A9A9;
@@ -247,4 +248,13 @@ address {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    list-style-type: none;
+    font-size: 250%;
+    margin-top: 10%;
+} 
+
+}
+.bottom-block i {
+    font-size: 250%;
+   
 }
