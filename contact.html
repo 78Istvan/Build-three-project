@@ -3,52 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GymTea</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a312b27e8f.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header>
-
-        <nav>
-            
-        <!---    <a href="#">GymTea</a> -->
-            <ul>
-                <li>
-                    <a href="membership.html">Membership</a>
-                </li>
-                <li>
-                    <a href="facilities.html">Facilities</a>
-
-                </li>
-                <li>
-                     <a   href="index.html">Home</a>
-                </li>
-                <li>
-                   <a href="classes.html">Classes</a>
-                </li>
-               
-                <li>
-                    <a class="active" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section> 
+<body class="content">
+    <!--------------------------------------------NavBar---------------->
+   <header class="main-nav">
+    <a href="#main-menu"
+       id="main-menu-toggle"
+       class="menu-toggle"
+       aria-label="Open main menu">
+        <span class="sr-only">Open main menu</span>
+        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+    </a>
+    <nav id="main-menu" class="main-menu" aria-label="Main menu">
+        <a href="#main-menu-toggle"
+           id="main-menu-close"
+           class="menu-close"
+           aria-label="Close main menu">
+            <span class="sr-only">Close main menu</span>
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </a>
+        <ul class="navigation">
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <a href="#main-menu-toggle"
+       class="backdrop"
+       tabindex="-1"
+       aria-hidden="true" hidden></a>
+</header>
+<!---------------------------------Top-Image-Sec-->
+    <section id="top-image-main"> 
      <div class="top-image">
-             <h1>HELLO BELLo Pecs vagy -e</h1>
-         <p>Te vagy a pecs</p>
-       </div>
-      
+         </div>
+         <div class="motivation">
+        <p>One day or day one <span id="motivation-text"><strong>you decide!</strong></span></p>
+        </div>
     </section>
-   
-    <section>
-        about, and a picture
-    </section>
-    <section>
-        trainers photos and a little discription
-    </section>
-    <footer>
-        address, and social link copyright text
+  <!--------------------------------Contact section-------->
+  <div id="bg">
+    <img src="https://wallpaperaccess.com/full/1087594.jpg" alt="gym-background-image">
+  </div>
+   <!-------------------Footer-Sec--------------->
+  <footer class="footer-content">
+     
+      <div class="container">
+          <address>
+             <h2>Address</h2>
+             <p>1280 Meriden-Waterbury 
+                <br>Tpke Plantsville, CT 06479
+                <br>kim@american-gymnastics.net
+                <br>Tel: 860.621.5001
+                <br>Fax: 860.628.0626</p>
+        </address>
+        <ul class="bottom-block">
+            <li><a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="http://www.twitter.com" target="_blank" ><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="http://www.youtube.com" target="_blank" ><i class="fab fa-youtube-square"></i></a></li>
+            <li><a href="http://www.instagram.com" target="_blank" ><i class="fab fa-instagram-square"></i></a></li>
+        </ul> 
+        <div>
+            <p class="open-h">Opening Hours</p>
+        
+            <div>
+                 <table class="open-t">
+                    <tr><th>Monday</th><td>6am - 9pm</td></tr>
+                    <tr><th>Tuesday</th><td>6am - 9pm</td></tr>
+                    <tr><th>Wednesday</th><td>6am - 10pm</td></tr>
+                    <tr><th>Thursday</th><td>6am - 10pm</td></tr>
+                    <tr><th>Friday</th><td>6am - 10pm</td></tr>
+                    <tr><th>Saturday</th><td>9am - 6pm</td></tr>
+                    <tr><th>Sunday</th><td>10am - 6pm</td></tr>
+                 </table>
+            </div>
+        </div>
+          
+      </div>
+    
     </footer>
+      <div class="copy-r">
+          <p>Copyright &copy; Istvan78 2021 GymTea</p> 
+      </div>
+    
 </body>
 </html>
