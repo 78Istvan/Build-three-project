@@ -11,6 +11,7 @@ body {
 /*---------------navbar styling ------*/ 
 
 
+}
 li {
     margin-right: 0.5em;
 }
@@ -119,7 +120,6 @@ a:hover {
 .first-trainer {
     width: 200px;
     height: 200px;
- 
     border-radius: 50%;
     margin: 0 auto;
     background-image: url(../images/trainer-4.jpg);
@@ -309,12 +309,18 @@ address {
 .mem-heading {
     text-align: left;
     color: #000000;
-    text-decoration: underline;
+    text-decoration: underline #fb4f14;
 }
 .list-group {
     color: #000000;
     text-align: left;
     margin-top: 50px;
+}   
+.list-group li {
+     font-size: 19px;
+}   
+.list-group-item {
+    border: 2px solid #fb4f14;
 }
 .mem-list {
     text-align: left;
@@ -323,27 +329,7 @@ address {
     width: auto;
 }
 /*------------------------Contact Page---------*/
-#bg {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-	
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
+.contact-contact {
+    height: 280px;
 }
 
-
-.back {
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
