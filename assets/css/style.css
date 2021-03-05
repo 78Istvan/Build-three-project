@@ -59,8 +59,6 @@ a:hover {
 }
 .motivation {
     height: 200px;
-    
-    
 }
 
 .motivation p {
@@ -75,7 +73,6 @@ a:hover {
     color:#000000;
 }
 
-}
 /*------------------------------------------------------------OurHeroes------------*/
 #heroes-test{
     text-align: center;
@@ -302,4 +299,26 @@ address {
 }
 .copy-r p {
     text-align: center;
+}
+/*------------Membership------------------------------*/
+.mem-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mem-heading {
+    text-align: left;
+    color: #000000;
+    text-decoration: underline;
+}
+.list-group {
+    color: #000000;
+    text-align: left;
+    margin-top: 50px;
+}
+.mem-list {
+    text-align: left;
+}
+.group {
+    width: auto;
 }
