@@ -332,4 +332,9 @@ address {
 .contact-contact {
     height: 280px;
 }
+.contact-img {
+    position: relative;
+    bottom: 100px;
+    left: 30px;
+}
 
