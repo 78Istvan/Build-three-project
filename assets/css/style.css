@@ -229,7 +229,7 @@ p {
 
 
 .about {
-    color: #A9A9A9;
+    color: #000000;
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
@@ -329,7 +329,45 @@ address {
     width: auto;
 }
 /*------------------------Contact Page---------*/
-.contact-contact {
-    height: 280px;
+.contact-about {
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 100px;
 }
+.contact-container {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact-img {
+    position: relative;
+    width: 300px;
+    left: 30px;
+    bottom: 60px;
+}
+.contact-text {
+    width: 66%;
+   
+}
+.pain-img {
+    width: 10px;
+    height: 10px;
+}
+.img-thumbnail {
+    border: 1px solid #fb4f14;
+}
+.contact-touch {
+    color: #fb4f14;
+    text-align: center;
+    border-bottom: 1px solid #fb4f14;
+}
+.contact-text {
+    color: #000000;
+}
+
+
 
