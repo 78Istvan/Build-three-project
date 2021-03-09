@@ -353,6 +353,7 @@ address {
     width: 66%;
    
 }
+<<<<<<< HEAD
 .pain-img {
     width: 10px;
     height: 10px;
@@ -388,6 +389,13 @@ address {
     padding: 0.5rem;
     text-align: center;
     color: #000000;
+=======
+.contact-img {
+    position: relative;
+    bottom: 100px;
+    left: 30px;
+}
+>>>>>>> 5d1bd50274884ea856b49e6f17d64447b2ac6eeb
 
 }
 table {
