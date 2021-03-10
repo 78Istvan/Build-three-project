@@ -49,7 +49,7 @@
     </section>
     <!--------------------------------Classes table sign up form------->
     <section class="table-form">
-         <h1 class="about">Our Classes</h1>
+         <h1 class="about-classes">Our Classes</h1>
     <table>
         <thead>
             <tr>
@@ -136,19 +136,60 @@
             </tr>
         </tbody>
     </table>
-    <div>
+    <div class="classes-form">
+        <h1 class="about-sign-up">Sign Up Form</h1>
     <form>
-        <label for="fname">Firstname</label>
-        <input id="fname" name="firstname" type="text" palaceholder="Your name">
+        <label for="fname">Firstname</label><br>
+        <input id="fname" name="firstname" type="text" placeholder="Your name"><br>
 
-        <label for="lname">Lastname</label>
-        <input id="iname" name="lastname" type="time" placeholder="Your Last name">
+        <label for="lname">Lastname</label><br>
+        <input id="lname" name="lastname" type="text" placeholder="Your Last name"><br>
 
-        <label for="comment">Comment</label>
+         <label for="email">Email</label><br>
+        <input id="email" name="email" type="text" placeholder="Your Email"><br>
+
+
+        <label for="comment">Comment</label><br>
         <textarea id="comment" name="comment" placeholder="Leave a comment..." style="height: 200px;"></textarea>
-        
 
+       <div class="classes-radio"> 
+        <form class="classes-form-radio">
 
+         <label class="radio-inline">
+         <input type="radio" name="optradio" checked>Bootcamp
+         </label>
+
+         <label class="radio-inline">
+         <input type="radio" name="optradio">Yoga
+         </label>
+
+         <label class="radio-inline">
+         <input type="radio" name="optradio">Pilates
+         </label>
+
+            <label class="radio-inline">
+         <input type="radio" name="optradio">Zumba
+         </label>
+
+            <label class="radio-inline">
+         <input type="radio" name="optradio">Boxing
+         </label>
+
+            <label class="radio-inline">
+         <input type="radio" name="optradio">Karate
+         </label>
+
+         <label class="radio-inline">
+         <input type="radio" name="optradio">Krav-Maga
+         </label>
+          
+         
+  </form>
+       </div>
+
+         <div>
+          <button type="button" class="btn btn-secondary btn-lg">Sign Up Now</button>
+       </div>
     </form>
     </div>
 
