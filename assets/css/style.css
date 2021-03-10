@@ -336,24 +336,32 @@ address {
     font-size: 40px;
     text-transform: uppercase;
     text-decoration: underline;
-    margin-bottom: 100px;
+    margin-bottom: 35px;
 }
 .contact-container {
     height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 25px;
 }
 .contact-img {
     position: relative;
     width: 300px;
     left: 30px;
     bottom: 60px;
+    display: contents;
+    width: 33%;
 }
-.contact-text {
-    width: 66%;
-   
+
+.contact-map {
+    width: 33%;
 }
+.contact-touch-text {
+    width: 33%;
+}
+
+
 
 .pain-img {
     width: 10px;
@@ -363,13 +371,21 @@ address {
     border: 1px solid #fb4f14;
 }
 .contact-touch {
-    color: #fb4f14;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid #fb4f14;
 }
-.contact-text {
-    color: #000000;
+
+.contact-touch h3 {
+    color: #fb4f14;
+    font-size: 45px;
+    margin-top: 15px;
 }
+.contact-text p {
+    color: #000000;
+    font-size: 25px;
+    padding: 5px;
+}
+
 /*--------------------Classes Sec Table and -----------*/
 .table-form {
     height: 1500px;
