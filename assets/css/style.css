@@ -361,7 +361,11 @@ address {
     width: 33%;
 }
 
-
+.info {
+    background-color: #fb4f14;
+    color: #ffffff;
+    border-radius: 7%;
+}
 
 .pain-img {
     width: 10px;
@@ -378,7 +382,7 @@ address {
 .contact-touch h3 {
     color: #fb4f14;
     font-size: 45px;
-    margin-top: 15px;
+    margin-top: 15px 0 15px 0;
 }
 .contact-text p {
     color: #000000;
@@ -388,7 +392,7 @@ address {
 
 /*--------------------Classes Sec Table and -----------*/
 .table-form {
-    height: 1500px;
+    height: 1300px;
     
 }
 .table-head, .table-body {
