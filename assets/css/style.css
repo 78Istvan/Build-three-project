@@ -464,4 +464,12 @@ button {
     margin: 20px 0 40px 0;
     
 }
-
+/*                            Gallery Sec---------------*/
+.font-weight-light {
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: 2px underline #fb4f14;
+    margin-top: 25px;
+}
