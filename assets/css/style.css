@@ -40,6 +40,9 @@ a:hover {
 .main-nav {
     background-color: #000000;
 }
+.main-menu {
+    overflow-y: unset;
+}
 /*--------------------------Top-Image-and text-----------------*/
    
 .top-image {
