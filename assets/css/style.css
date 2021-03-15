@@ -399,7 +399,7 @@ address {
     padding: 5px;
 }
 
-/*--------------------Classes Sec Table----------*/
+/*--Classes Sec Table--*/
 .table-form {
     height: 1300px;
     
@@ -426,7 +426,7 @@ table {
     margin: auto;
     margin-top: 50px;
 }
-/*----------------Classes sec Form----------*/
+/*--Classes sec Form--*/
 .about-classes {
     color: #000000;
     text-align: center;
@@ -467,7 +467,7 @@ button {
     margin: 20px 0 40px 0;
     
 }
-/*                            Gallery Sec---------------*/
+/*--Gallery Sec--*/
 .font-weight-light {
     color: #000000;
     text-align: center;
@@ -476,3 +476,45 @@ button {
     text-decoration: 2px underline #fb4f14;
     margin-top: 25px;
 }
+/*--Media queries--*/
+@media screen and (max-width: 1393px){
+   .first-text {
+       text-align: center;
+       width: fit-content;
+   }
+    .footer-content { 
+        width: 100%;
+        height: 800px;
+      }
+     .container {
+         text-align: center;
+     } 
+}
+
+@media only screen and (max-width: 600px) {
+    
+   #trainers {
+       flex-direction: column;
+}
+  #left-image {
+      width: 100%;
+  }
+  #right-image {
+      width: 100%;
+      
+
+  }
+  #center-image {
+      width: 100%;
+  }
+  .first-text .second-text .third-text{
+      width: inherit;
+  }
+  
+  
+  .name {
+      margin: 0 auto;
+      color: red;
+  }
+  
+   
