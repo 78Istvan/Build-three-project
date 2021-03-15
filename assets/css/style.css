@@ -7,7 +7,7 @@ body {
     border: 0;
 }
 *{
-    font-family: Noto Sans JP, sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
 }
 /*--navbar styling--*/ 
 
@@ -102,15 +102,12 @@ a:hover {
     background-color: #ffffff;
     display: flex;
     margin-bottom: 30px;
-
 }
 
 #left-image {
     width: 33%;
     padding-top: 10px;
 }
-
-
 #right-image {
     width: 33%;
     padding-top: 10px;
@@ -127,11 +124,10 @@ a:hover {
     margin: 0 auto;
     background-image: url(../images/trainer-4.jpg);
 }
-
-
 h3 {
     text-align: center;
     color: #A9A9A9;
+    text-decoration: underline;
 }
 .motivation {
     background-color: #000000;
@@ -154,8 +150,6 @@ h3 {
     margin: 0 auto;
     background-image: url(../images/trainer-6.jpg);
 }
-
-
 .second-text {
     margin-left: 100px;
     margin-right: 100px;
@@ -633,5 +627,5 @@ address p {
     width: 100%
 }
 }
-@import "mobile.css";
+
 
