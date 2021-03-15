@@ -1,0 +1,44 @@
+@media only screen and (max-width: 767px) {
+    
+#trainers {
+       flex-direction: column;
+}
+#left-image {
+      width: 100%;
+  }
+#right-image {
+      width: 100%;
+}
+#center-image {
+      width: 100%;
+}
+.first-text .second-text .third-text{
+      width: inherit;
+}
+  
+.container {   
+     width: 100%;
+     display: grid;
+}
+.open-h .open-t {
+    width: 100%;
+}
+.bottom-block  {
+    display: table-column;
+}  
+   
+.footer-content {
+    height: 800px;
+}
+.content-wrap {
+    width: 100%;
+     display: grid;
+}
+.middle-img {
+    width: 200%;
+    height: auto;
+}
+
+.about-text-wrap {
+    max-width: 95%;
+}
