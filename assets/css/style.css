@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 @import "navigation.css";
-@import "mobile.css";
+
 body {
     margin: 0;
     padding: 0;
@@ -343,7 +343,7 @@ address {
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
-    text-decoration: 2px underline #fb4f14;
+    text-decoration: underline #fb4f14;
     margin-bottom: 35px;
 }
 .contact-container {
@@ -396,7 +396,7 @@ address {
 .contact-touch h3 {
     color: #fb4f14;
     font-size: 45px;
-    margin-top: 15px 0 15px 0;
+    margin: 15px 0;
 }
 .contact-text p {
     color: #000000;
@@ -437,7 +437,7 @@ table {
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
-    text-decoration: 2px underline #fb4f14;
+    text-decoration: underline #fb4f14;
     margin-bottom: 50px;
     margin-top: 25px;
 }
@@ -478,7 +478,7 @@ button {
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
-    text-decoration: 2px underline #fb4f14;
+    text-decoration: underline #fb4f14;
     margin-top: 25px;
 }
 /*--Media queries--*/
@@ -502,9 +502,14 @@ button {
 #trainers {
        flex-direction: column;
 }
-#left-image {
+#left-image .first-text{
       width: 100%;
-  }
+      margin: 0 15px;
+}
+.first-text {
+     margin: 0 15px;
+
+}
 #right-image {
       width: 100%;
 }
@@ -541,3 +546,6 @@ button {
 .about-text-wrap {
     max-width: 95%;
 }
+}
+@import "mobile.css" 
+
