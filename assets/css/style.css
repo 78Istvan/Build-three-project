@@ -343,11 +343,11 @@ address {
     margin-bottom: 35px;
 }
 .contact-container {
-    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 25px;
+    flex-wrap: wrap;
 }
 .contact-img {
     position: relative;
@@ -529,7 +529,7 @@ button {
 }  
 
 .copy-r {
-    margin-top: 30px;
+    padding-top: 30px;
 }
 .content-wrap {
     width: 100%;
@@ -558,6 +558,15 @@ address p {
 }
 .mem-heading {
     text-align: center;
+}
+.contact-touch-text {
+    width: 100%;
+}
+.contact-map {
+    width: 100%;
+}
+.contact-img {
+    width: 100%
 }
 }
 @import "mobile.css";
