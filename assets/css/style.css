@@ -28,11 +28,11 @@ li a {
 a:hover {
     color: #A9A9A9;
 }
-  
-.active {
-    border-bottom-style: solid;
-    border-width: 1px;
-    border-color: #A9A9A9;
+
+.navigation .active {
+    border-bottom-style: solid !important;
+    border-width: 1px !important;
+    border-color: #A9A9A9 !important;
     
 }
 .middle {
@@ -62,9 +62,7 @@ a:hover {
     padding-top: 65px;
     background-color: #000000;
 }
-.motivation {
-    height: 200px;
-}
+
 
 .motivation p {
     text-align: center;
@@ -103,6 +101,7 @@ a:hover {
     
     background-color: #ffffff;
     display: flex;
+    margin-bottom: 30px;
 
 }
 
@@ -255,9 +254,6 @@ p {
     align-self: center;
 }
 /*--Footer-Section--*/
-footer{
-    height: 280px;
-}
 
 .container {
     display: flex;
@@ -330,7 +326,7 @@ address {
 }   
 .list-group-item {
     border: 2px solid #fb4f14;
-}
+} 
 .mem-list {
     text-align: left;
 }
@@ -385,9 +381,7 @@ address {
     width: 10px;
     height: 10px;
 }
-.img-thumbnail {
-    border: 1px solid #fb4f14;
-}
+
 .contact-touch {
     text-align: left;
     border-bottom: 1px solid #fb4f14;
@@ -533,8 +527,9 @@ button {
 .bottom-block li a {
     padding: 0 10px;
 }  
-.footer-content {
-    height: 800px;
+
+.copy-r {
+    margin-top: 30px;
 }
 .content-wrap {
     width: 100%;
@@ -548,7 +543,22 @@ button {
 .about-text-wrap {
     max-width: 95%;
 }
-
+address {
+    text-align: center;
+}
+address p {
+    text-align: center;
+}
+.motivation {
+    text-align: center;
+    width: 100%;
+}
+.mem-container {
+    flex-wrap: wrap;
+}
+.mem-heading {
+    text-align: center;
+}
 }
 @import "mobile.css";
 
