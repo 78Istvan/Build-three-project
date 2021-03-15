@@ -502,20 +502,17 @@ button {
 #trainers {
        flex-direction: column;
 }
-#left-image .first-text{
-      width: 100%;
-      margin: 0 15px;
-}
-.first-text {
+
+.first-text, .second-text, .third-text{
      margin: 0 15px;
 
 }
-#right-image {
-      width: 100%;
-}
-#center-image {
-      width: 100%;
-}
+
+#trainers #left-image,
+    #trainers #right-image,
+    #trainers #center-image{
+        width: 100%;
+    }
 .first-text .second-text .third-text{
       width: inherit;
 }
@@ -528,9 +525,14 @@ button {
     width: 100%;
 }
 .bottom-block  {
-    display: table-column;
+   padding-left: 0;
 }  
-   
+.bottom-block li {
+    margin-right: 0;
+}
+.bottom-block li a {
+    padding: 0 10px;
+}  
 .footer-content {
     height: 800px;
 }
@@ -546,6 +548,7 @@ button {
 .about-text-wrap {
     max-width: 95%;
 }
+
 }
-@import "mobile.css" 
+@import "mobile.css";
 
