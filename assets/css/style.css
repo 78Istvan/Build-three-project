@@ -134,7 +134,7 @@ h3 {
 }
 .motivation {
     background-color: #000000;
-    color: #888888;
+    color: #ffffff;
 }
 .first-text {
     margin-left: 100px;
@@ -256,7 +256,15 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-  
+}
+.address-head {
+    color: #A9A9A9;
+    text-align: center;
+    margin-top: 40px;
+}
+.address-text {
+    text-align: center;
+    font-size: large;
 }
 address {
     color: #A9A9A9;
@@ -283,12 +291,12 @@ address {
 }
 .open-t {
     color: #A9A9A9;
-    font-size: 14px;
+    font-size: larger;
     margin-top: 10px;
 }
 .open-h {
     font-size: 30px;
-    margin: 40px 0 10px;
+    margin: 40px 0 40px;
     color: #A9A9A9;;
 }
 /*--Copyright--*/
@@ -309,7 +317,7 @@ address {
     justify-content: space-evenly;
 }
 .mem-heading {
-    text-align: left;
+    text-align: center;
     color: #000000;
     text-decoration: underline #fb4f14;
 }
@@ -329,6 +337,9 @@ address {
 }
 .group {
     width: auto;
+}
+.img-thumbnail {
+    border: none;
 }
 /*--Contact Page--*/
 .contact-about {
@@ -534,8 +545,8 @@ address {
 }
 address p {
     text-align: center;
-    color: red;
 }
+    
 .motivation {
     text-align: center;
     width: 100%;
