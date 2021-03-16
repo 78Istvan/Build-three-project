@@ -392,13 +392,14 @@ address {
 
 .contact-touch {
     text-align: left;
-    border-bottom: 1px solid #fb4f14;
+   
 }
 
 .contact-touch h3 {
-    color: #fb4f14;
+    color: #4a4a4a;
     font-size: 45px;
     margin: 15px 0;
+    text-decoration: none;
 }
 .contact-text p {
     color: #000000;
@@ -448,10 +449,15 @@ table {
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: underline #fb4f14;
     margin-bottom: 50px;
     margin-top: 25px;
 
+}
+.fas {
+    font-size: xx-large;
+    color: #4a4a4a;
+    border-bottom: #fb4f14;
 }
 .classes-form {
     height: 300px;
@@ -491,6 +497,7 @@ button {
     width: fit-content;
     padding-bottom: 15px;
 }
+      
 /*--Media queries--*/
  @media screen and (min-width: 768px) and (max-width: 1339px) {
    #trainers {
