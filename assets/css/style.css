@@ -474,6 +474,9 @@ button {
     margin: 20px 0 40px 0;
     
 }
+.button-signup {
+    margin-top: 20px;
+}
 /*--Gallery Sec--*/
 .font-weight-light {
     color: #000000;
