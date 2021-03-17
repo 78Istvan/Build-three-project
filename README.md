@@ -1,45 +1,57 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# GymTea
+## Gym Project
 
-Welcome 78Istvan,
+This project was made for a gym called GymTea.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The name is short and very easy to remember for it, so any time people are looking for a gym or talking about exercises they will connent the name and gym activites together.
 
-## Gitpod Reminders
+It is designed to be responsible on most of the devices to give the best experiance to the gym customers and users.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User experience(UX)
 
-`python3 -m http.server`
+### First time users
 
-A blue button should appear to click: *Make Public*,
+* First Time Visitors can see an image what tells them the profile of the page.
 
-Another blue button should appear to click: *Open Browser*.
+* First Time Vsitors can easly navigate on the webpage to find essential information about a gym just like classes, prices, contact, and location.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* First Time Visitors want to check their social media links to find out how popular and trustable the gym. They can see the number of followers, comments, good or bad feed backs.
 
-A blue button should appear to click: *Make Public*,
+### Returning users
 
-Another blue button should appear to click: *Open Browser*.
+* Returning Users can renew their membership useng the sign up form.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Returning Users can follow the time table about their classes.
 
-## Updates Since The Instructional Video
+* Returning Users can enjoy the gym community to visit the gym gallery page regularly.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Design 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Balck and white colors have been used to make a beg contrast with a little orange to make a little different, and highlite some text.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* The Nato Sans JP font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+ 
+* Home page image is an energetic strong image in the middle of the page to tell to any visitor what is the main profile of the website.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Wireframes 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Technologies used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Languages used 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* HTML5
+* CSS3
+## Frameworks, Libraries & Programs Used
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+* [Bootstrap 3.3.7](https://blog.getbootstrap.com/2016/07/25/bootstrap-3-3-7-released/) and [Bootstrap5.0.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+  * Bootstrap was used to assist with the responsiveness and styling of the website.
+* Hover:css
+  * Hover.css was used on the Social Media icons in the footer
+* [Fontawesome](https://fontawesome.com/v4.7.0/)
+  * Font Awesome was used for social icons
+* Git]
+  * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* [GitHub](https://github.com/)
+  * GitHub is used to store the projects code after being pushed from Git.
+* [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQjw0caCBhCIARIsAGAfuMww-ltoyDwB6ZrAlyHF7kvDAEL_HD6_6Wdy3yEckSbSgu3D-SvI5QcaAthnEALw_wcB)
+  *Balsamiq was used to create the wireframes during the design process.
