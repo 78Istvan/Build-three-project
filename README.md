@@ -3,9 +3,9 @@
 
 This project was made for a gym called GymTea.
 
-The name is short and very easy to remember for it, so any time people are looking for a gym or talking about exercises they will connent the name and gym activites together.
+The name is short and very easy to remember for it, so any time people are looking for a gym or talking about exercises they will connect the name and gym activities together.
 
-It is designed to be responsible on most of the devices to give the best experiance to the gym customers and users.
+It is designed to be responsible on most of the devices to give the best experience to the gym customers and users.
 
 ## User experience(UX)
 
@@ -13,13 +13,13 @@ It is designed to be responsible on most of the devices to give the best experia
 
 * First Time Visitors can see an image what tells them the profile of the page.
 
-* First Time Vsitors can easly navigate on the webpage to find essential information about a gym just like classes, prices, contact, and location.
+* First Time Visitors can easily navigate on the webpage to find essential information about a gym just like classes, prices, contact, and location.
 
 * First Time Visitors want to check their social media links to find out how popular and trustable the gym. They can see the number of followers, comments, good or bad feed backs.
 
 ### Returning users
 
-* Returning Users can renew their membership useng the sign up form.
+* Returning Users can renew their membership using the sign up form.
 
 * Returning Users can follow the time table about their classes.
 
@@ -27,11 +27,11 @@ It is designed to be responsible on most of the devices to give the best experia
 
 ## Design 
 
-* Balck and white colors have been used to make a beg contrast with a little orange to make a little different, and highlite some text.
+* Black and white colours have been used to make a beg contrast with a little orange to make a little different, and highlight some text.
 
 * The Nato Sans JP font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
  
-* Home page image is an energetic strong image in the middle of the page to tell to any visitor what is the main profile of the website.
+* Home page image is an energetic strong image in the middle of the page to tell any visitor what is the main profile of the website.
 
 ## Wireframes 
 

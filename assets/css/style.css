@@ -467,7 +467,11 @@ input[type=text], textarea {
     width: 45%;
     padding: 10px;
     border: 2px solid #fb4f14;
-    
+}
+input[type=email] {
+     width: 45%;
+    padding: 10px;
+    border: 2px solid #fb4f14;
 }
 button {
     color: #fb4f14;
