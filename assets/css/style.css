@@ -408,10 +408,11 @@ address {
 }
 
 /*--Classes Sec Table--*/
-.table-form {
-    height: 1300px;
-    
-}
+
+.table-risp {
+    overflow-x:auto;
+}   
+
 .table-head, .table-body {
   border: 1px solid #000000;
   padding: 0.5rem;
@@ -452,26 +453,42 @@ table {
     text-decoration: underline #fb4f14;
     margin-bottom: 50px;
     margin-top: 25px;
+}
+label input[type="radio"] {
+  color: #c8c8c8;
+}
 
-}
-.fas {
-    font-size: xx-large;
-    color: #4a4a4a;
-    border-bottom: #fb4f14;
-}
 .classes-form {
-    height: 300px;
     text-align: center;
+    
 }
 input[type=text], textarea {
     width: 45%;
     padding: 10px;
     border: 2px solid #fb4f14;
+    background-color: #fff;
+    opacity: 0.5;
 }
 input[type=email] {
-     width: 45%;
+    width: 45%;
     padding: 10px;
     border: 2px solid #fb4f14;
+    background-color: #fff;
+    opacity: 0.5;
+}
+::placeholder {
+    color: white;
+}
+#a, #b, #f, #g {
+    color: #fff;
+}
+#c, #d, #e {
+    color: #fb4f14;
+}
+.art {
+    color: #fff;
+}
+    
 }
 button {
     color: #fb4f14;
@@ -481,11 +498,18 @@ button {
     color: #fb4f14;
 }
 .classes-radio {
-    margin: 20px 0 40px 0;
+    margin: 20px 0 0 0;
     
 }
 .button-signup {
     margin-top: 20px;
+    padding-bottom: 20px;
+}
+.form-image {
+    background-image: url(https://wallpaperxyz.com/wp-content/uploads/Fitness-Girls-Sexy-HD-Wallpapers-Free-Download-Wallpaperxyz.com-12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 /*--Gallery Sec--*/
 .font-weight-light {
@@ -580,7 +604,9 @@ address p {
 .contact-img {
     width: 100%
 }
-
+.form-image {
+    width: 100%;
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -660,6 +686,12 @@ address p {
 .contact-img {
     width: 100%
 }
+.form-image {
+    width: 100%;
+}
+.table-risp {
+    overflow-x:auto;
+}   
 }
 
 
