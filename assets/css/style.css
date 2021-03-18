@@ -354,7 +354,6 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 25px;
     flex-wrap: wrap;
 }
 .contact-img {
@@ -365,7 +364,13 @@ address {
     display: contents;
     width: 33%;
 }
-
+.text-center {
+    color: red;
+}
+#name-a {
+    text-align: left;
+    margin-bottom: 55px;
+}
 .contact-map {
     width: 33%;
 }
@@ -405,6 +410,9 @@ address {
     color: #000000;
     font-size: 25px;
     padding: 5px;
+}
+#row-a {
+    padding-left: 200px;
 }
 
 /*--Classes Sec Table--*/
@@ -485,11 +493,7 @@ input[type=email] {
 #c, #d, #e {
     color: #fb4f14;
 }
-.art {
-    color: #fff;
-}
-    
-}
+
 button {
     color: #fb4f14;
     border: 1px solid #fb4f14;
