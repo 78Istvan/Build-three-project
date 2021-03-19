@@ -507,6 +507,9 @@ button {
     margin-top: 20px;
     padding-bottom: 20px;
 }
+.btn {
+    border: 1px solid #fb4f14;
+}
 .form-image {
     background-image: url(https://wallpaperxyz.com/wp-content/uploads/Fitness-Girls-Sexy-HD-Wallpapers-Free-Download-Wallpaperxyz.com-12.jpg);
     background-repeat: no-repeat;
