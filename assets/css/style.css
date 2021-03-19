@@ -441,7 +441,7 @@ table {
     width: 90%;
     height: 35%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 /*--Classes sec Form--*/
 .about-classes {
@@ -450,7 +450,6 @@ table {
     font-size: 40px;
     text-transform: uppercase;
     text-decoration: underline #fb4f14;
-    margin-bottom: 50px;
     margin-top: 25px;
 }
 .about-sign-up{
@@ -459,8 +458,7 @@ table {
     font-size: 40px;
     text-transform: uppercase;
     text-decoration: underline #fb4f14;
-    margin-bottom: 50px;
-    margin-top: 25px;
+    margin: 25px 0 35px 0;
 }
 label input[type="radio"] {
   color: #c8c8c8;
