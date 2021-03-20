@@ -414,55 +414,15 @@ address {
 #row-a {
     padding-left: 200px;
 }
-/*--Contact page form--*/
-
-/*
-::placeholder {
-    color: #000000;
-}
-.contact-sec-text {
-    text-align: center;
-    font-size: 20px;
-    color: #000000;
-}
-#fname {
-    width: 36%;
-    padding: 10px;
-    border: 2px solid #fb4f14;
-    color: #000000;
-}
-#comment {
-    width: 70%;
-    padding: 10px;
-    border: 2px solid #fb4f14;
-    margin-left: 60px;
-}
-}
-#subject {
-    width: 40%;
-    padding: 10px;
-    border: 2px solid #fb4f14;
-    margin-left: 60px;
-}
-#cont-text {
-    text-align: center;
-    color: #000000;
-    margin-bottom: 35px;
-}
-input, label {
-    display:block;
-}
-.contact-form-btn {
-    text-align: center;
-    width: 75%;
-    margin: 25px 0;
+.contact-bg-img {
+    background-image: url(https://lh3.googleusercontent.com/proxy/DOv24Z5XOWxefMQlE6Yd-ckITuIrNWB06J1UJUVw2kRf1HaUXaYEzrJiyxRefqzCK5k0Xd-JF2SvYSudSDBw6luvqbdd8A_SREXiWIBnuwc5tOj714BlYZwu3A);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
 }
 
-#contact-btn {
-    font-size: 15px;
-}
-*/
-    
+
 /*--Classes Sec Table--*/
 
 .table-risp {
@@ -517,14 +477,14 @@ label input[type="radio"] {
     
 }
 input[type=text], textarea {
-    width: 45%;
+    width: 55%;
     padding: 10px;
     border: 2px solid #fb4f14;
     background-color: #fff;
     opacity: 0.5;
 }
 input[type=email] {
-    width: 45%;
+    width: 55%;
     padding: 10px;
     border: 2px solid #fb4f14;
     background-color: #fff;
@@ -753,7 +713,20 @@ address p {
   .form-inline {
     flex-direction: column;
     align-items: stretch;
-}   
+} 
+input[type=text], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #fb4f14;
+    background-color: #fff;
+    opacity: 0.5;  
 }
-
+input[type=email] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #fb4f14;
+    background-color: #fff;
+    opacity: 0.5;
+}
+}
 
