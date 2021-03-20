@@ -379,10 +379,7 @@ address {
 }
 
 .info {
-   
-    color: #ffffff;
-   
-   
+   color: #ffffff;
 }
 .telex {
     color: #ffffff;
@@ -398,7 +395,6 @@ address {
 
 .contact-touch {
     text-align: left;
-   
 }
 
 .contact-touch h3 {
@@ -491,14 +487,22 @@ input[type=email] {
     background-color: #fff;
     opacity: 0.5;
 }
-::placeholder {
-    color: white;
+
+.label-art {
+    color: #ffffff;
+    font-size: large;
+    padding: 12px;
 }
+label {
+    color: #ffffff;
+    padding: 10px;
+}
+
 #a, #b, #f, #g {
     color: #ffffff;
 }
 #c, #d, #e {
-    color: #fb4f14;
+    color: #ffffff;
 }
 
 button {
