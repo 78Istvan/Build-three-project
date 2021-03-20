@@ -365,7 +365,7 @@ address {
     width: 33%;
 }
 .text-center {
-    color: red;
+    text-align: right;
 }
 #name-a {
     text-align: left;
@@ -414,7 +414,90 @@ address {
 #row-a {
     padding-left: 200px;
 }
+/*--Contact page form--*/
 
+
+::placeholder {
+    color: #000000;
+}
+.contact-sec-text {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+#fname {
+    width: 36%;
+    padding: 10px;
+    border: 2px solid #fb4f14;
+    color: #000000;
+}
+#comment {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #fb4f14;
+    margin-left: 60px;
+}
+}
+#subject {
+    width: 40%;
+    padding: 10px;
+    border: 2px solid #fb4f14;
+    margin-left: 60px;
+}
+#cont-text {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 35px;
+}
+input, label {
+    display:block;
+}
+.contact-form-btn {
+    text-align: center;
+    width: 75%;
+    margin: 25px 0;
+}
+
+#contact-btn {
+    font-size: 15px;
+}
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-left: 60px;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid #fb4f14;
+  color: #000000;
+  width: 35%;
+}
+.infos {
+    color: #000000;
+    font-size: 15px;
+} 
+.contact-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.contact-form-left {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+    
 /*--Classes Sec Table--*/
 
 .table-risp {
@@ -486,7 +569,7 @@ input[type=email] {
     color: white;
 }
 #a, #b, #f, #g {
-    color: #fff;
+    color: #000000;
 }
 #c, #d, #e {
     color: #fb4f14;
@@ -495,6 +578,7 @@ input[type=email] {
 button {
     color: #fb4f14;
     border: 1px solid #fb4f14;
+    align-items: flex-start;
 }
 .form-radio {
     color: #fb4f14;
@@ -696,6 +780,14 @@ address p {
 }
 .table-risp {
     overflow-x:auto;
+}
+.form-inline input {
+    margin: 10px 0;
+}
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
 }   
 }
 
