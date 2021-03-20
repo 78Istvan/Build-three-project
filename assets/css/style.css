@@ -375,20 +375,21 @@ address {
     width: 33%;
 }
 .contact-touch-text {
-    width: 33%;
+    width: 60%;
 }
 
 .info {
-    background-color: #fb4f14;
+   
     color: #ffffff;
-    border-radius: 4%;
-    box-shadow: 5px 7px #888888;
+   
+   
 }
 .telex {
-    background-color: #000000;
     color: #ffffff;
-    border-radius: 4%;
-    box-shadow: 5px 7px #888888;
+    font-size: larger;
+}
+.contact-text {
+    margin-top: 400px;
 }
 .pain-img {
     width: 10px;
@@ -419,7 +420,7 @@ address {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 600px;
 }
 
 
