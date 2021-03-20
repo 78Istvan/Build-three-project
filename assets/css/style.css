@@ -416,7 +416,7 @@ address {
 }
 /*--Contact page form--*/
 
-
+/*
 ::placeholder {
     color: #000000;
 }
@@ -461,42 +461,7 @@ input, label {
 #contact-btn {
     font-size: 15px;
 }
-.form-inline {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  margin-left: 60px;
-}
-
-/* Add some margins for each label */
-.form-inline label {
-  margin: 5px 10px 5px 0;
-}
-
-/* Style the input fields */
-.form-inline input {
-  vertical-align: middle;
-  margin: 5px 10px 5px 0;
-  padding: 10px;
-  background-color: #ffffff;
-  border: 2px solid #fb4f14;
-  color: #000000;
-  width: 35%;
-}
-.infos {
-    color: #000000;
-    font-size: 15px;
-} 
-.contact-form-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-}
-.contact-form-left {
-    display: flex;
-    flex-direction: column;
-    width: 75%;
-}
+*/
     
 /*--Classes Sec Table--*/
 
