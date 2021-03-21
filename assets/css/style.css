@@ -135,6 +135,7 @@ h3 {
 .motivation {
     background-color: #000000;
     color: #ffffff;
+    display: block;
 }
 .first-text {
     margin-left: 100px;
