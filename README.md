@@ -35,6 +35,10 @@ The website is designed to be responsive on most of the devices to give the best
 
 ## Wireframes 
 
+* [Balsamiq PDF](../images/wireframe1.pdf) 
+
+ * Tehere is some missing wireframe documentation becaus my Balsamiq free account expired
+
 # Technologies used
 
 ## Languages used 
