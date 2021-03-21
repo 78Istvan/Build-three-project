@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 @import "navigation.css";
-@import "mobile.css";
+
 body {
     margin: 0;
     padding: 0;
@@ -10,9 +10,6 @@ body {
     font-family: "Noto Sans JP", sans-serif;
 }
 /*--navbar styling--*/ 
-
-
-
 li {
     margin-right: 0.5em;
 }
@@ -22,13 +19,10 @@ li a {
   text-decoration: none;
   color: #A9A9A9;
   font-weight: 700;
-    
 }
-  
 a:hover {
     color: #A9A9A9;
 }
-
 .navigation .active {
     border-bottom-style: solid !important;
     border-width: 1px !important;
@@ -80,6 +74,7 @@ a:hover {
 }
 
 /*--OurHeroes--*/
+
 #heroes-test{
     text-align: center;
     color: #4a4a4a;
@@ -106,7 +101,6 @@ a:hover {
     display: flex;
     margin-bottom: 30px;
 }
-
 #left-image {
     width: 33%;
     padding-top: 10px;
@@ -115,7 +109,6 @@ a:hover {
     width: 33%;
     padding-top: 10px;
 }
-
 #center-image {
     width: 33%;
     padding-top: 10px;
@@ -181,12 +174,12 @@ h3 {
 .third-text p {
     color: #4a4a4a;
 }
+
 /*--About section--*/
 
 .about-content {
     background-color: #000000;
 }
-
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -207,13 +200,10 @@ h3 {
     float: right;
     width: fit-content;
 }
-
 p {
     text-align: left;
     color: #A9A9A9;
-    
 }
-
 .about-img {
  max-width: 48%;
 }
@@ -230,9 +220,7 @@ p {
     
     color: #A9A9A9;
     font-size: 22px;
-   }   
-
-
+}   
 .about {
     color: #A9A9A9;
     text-align: center;
@@ -245,12 +233,12 @@ p {
 .middle-img {
     width: 100%;
     height: auto;
-    
 }
 .about-text-wrap {
     max-width: 48%;
     align-self: center;
 }
+
 /*--Footer-Section--*/
 
 .container {
@@ -282,7 +270,6 @@ address {
 .bottom-block a:hover {
     color: #ffffff;
 }
-
 .bottom-block i {
     font-size: 140%;
    
@@ -300,7 +287,9 @@ address {
     margin: 40px 0 40px;
     color: #A9A9A9;;
 }
+
 /*--Copyright--*/
+
 .copy-r {
     color: #ffffff;
     background-color: #000000;
@@ -311,7 +300,9 @@ address {
 .copy-r p {
     text-align: center;
 }
+
 /*--Membership--*/
+
 .mem-container {
     display: flex;
     flex-direction: row;
@@ -342,7 +333,9 @@ address {
 .img-thumbnail {
     border: none;
 }
+
 /*--Contact Page--*/
+
 .contact-about {
     color: #000000;
     text-align: center;
@@ -378,7 +371,6 @@ address {
 .contact-touch-text {
     width: 60%;
 }
-
 .info {
    color: #ffffff;
 }
@@ -393,11 +385,9 @@ address {
     width: 10px;
     height: 10px;
 }
-
 .contact-touch {
     text-align: left;
 }
-
 .contact-touch h3 {
     color: #4a4a4a;
     font-size: 45px;
@@ -420,13 +410,11 @@ address {
     height: 600px;
 }
 
-
 /*--Classes Sec Table--*/
 
 .table-risp {
     overflow-x:auto;
 }   
-
 .table-head, .table-body {
   border: 1px solid #000000;
   padding: 0.5rem;
@@ -449,7 +437,9 @@ table {
     margin: auto;
     margin-top: 25px;
 }
+
 /*--Classes sec Form--*/
+
 .about-classes {
     color: #000000;
     text-align: center;
@@ -469,7 +459,6 @@ table {
 label input[type="radio"] {
   color: #c8c8c8;
 }
-
 .classes-form {
     text-align: center;
     
@@ -488,7 +477,6 @@ input[type=email] {
     background-color: #fff;
     opacity: 0.5;
 }
-
 .label-art {
     color: #ffffff;
     font-size: large;
@@ -499,13 +487,9 @@ label {
     padding: 10px;
 }
 
-#a, #b, #f, #g {
+#a, #c, #d, #e, #b, #f, #g {
     color: #ffffff;
 }
-#c, #d, #e {
-    color: #ffffff;
-}
-
 button {
     color: #fb4f14;
     border: 1px solid #fb4f14;
@@ -531,7 +515,9 @@ button {
     background-size: cover;
     
 }
+
 /*--Gallery Sec--*/
+
 .font-weight-light {
     color: #000000;
     text-align: center;
@@ -547,16 +533,14 @@ button {
 }
       
 /*--Media queries--*/
+
  @media screen and (min-width: 768px) and (max-width: 1339px) {
    #trainers {
        flex-direction: column;
 }
-
 .first-text, .second-text, .third-text{
      margin: 0 15px;
-
 }
-
 #trainers #left-image,
     #trainers #right-image,
     #trainers #center-image{
@@ -565,7 +549,6 @@ button {
 .first-text .second-text .third-text{
       width: inherit;
 }
-  
 .container {   
      width: 100%;
      display: grid;
@@ -582,7 +565,6 @@ button {
 .bottom-block li a {
     padding: 0 10px;
 }  
-
 .copy-r {
     padding-top: 30px;
 }
@@ -594,7 +576,6 @@ button {
     width: 200%;
     height: auto;
 }
-
 .about-text-wrap {
     max-width: 95%;
 }
@@ -716,7 +697,7 @@ address p {
     margin: 10px 0;
 }
 
-  .form-inline {
+.form-inline {
     flex-direction: column;
     align-items: stretch;
 } 
