@@ -1,5 +1,6 @@
 
 /* Screen reader only */
+/*
 .sr-only {
     position: absolute;
     width: 1px;
@@ -12,6 +13,7 @@
 }
 
 /* Button styling */
+/*
 .menu-toggle {
     display: inline-block;
     padding: .75em 15px;
@@ -29,6 +31,7 @@
  Default styles + Mobile first
  Offscreen menu style
 */
+/*
 .main-menu {
     position: absolute;
     display: none;
@@ -49,6 +52,7 @@
     margin: 0;
     padding: 2.5em 0 0;
     /* Hide shadow w/ -8px while 'closed' */
+    /*
     -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
     -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
     box-shadow: -8px 0 8px rgba(0,0,0,.5);
@@ -57,7 +61,7 @@
     background: #1a1a1a;
     
 }
-
+/*
 .main-menu a {
     display: block;
     padding: .75em 15px;
@@ -96,6 +100,7 @@
 /*
  Demo purposes only
 */
+/*
 *,
 *:before,
 *:after {
@@ -132,6 +137,7 @@ article h2 {
  :target for non-JavaScript
  [aria-expanded] will be used if/when JavaScript is added to improve interaction, though it's completely optional.
 */
+/*
 .main-menu:target,
 .main-menu[aria-expanded="true"] {
     display: block;
@@ -157,6 +163,7 @@ article h2 {
  We could us .main-menu:target:after, but
  it wouldn't be clickable.
 */
+/*
 .main-menu:target + .backdrop,
 .main-menu[aria-expanded="true"] + .backdrop{
     position: absolute;
@@ -183,6 +190,7 @@ article h2 {
  Larger screen styling
  Horizontal menu
 */
+/*
 @media (min-width: 768px) {
     .menu-toggle,
     .main-menu .menu-close {
@@ -192,6 +200,7 @@ article h2 {
 }
 
     /* Undo positioning of off-canvas menu */
+    /*
     .main-menu {
         position: relative;
         left: auto;
@@ -204,6 +213,7 @@ article h2 {
         display: flex;
 
         /* Undo off-canvas styling */
+        /*
         padding: 0;
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
@@ -222,12 +232,13 @@ article h2 {
         font-size: 24px;
         /* Remove borders from off-canvas styling */
     }
-
+/*
     .main-menu a:hover,
     .main-menu a:focus {
         background: none; /* Remove background from off-canvas styling */
+        /*
         color: #fff;
     }
 }
 
-
+*/

@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GymTea</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <!--- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/a312b27e8f.js" crossorigin="anonymous"></script>
 </head>
 <body class="content">
-   <header class="main-nav">
+ <!---- <header class="main-nav">
     <a href="#main-menu"
        id="main-menu-toggle"
        class="menu-toggle"
@@ -17,7 +18,7 @@
         <span class="sr-only">Open main menu</span>
         <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
     </a>
-<!--NavBar-->
+
     <nav id="main-menu" class="main-menu" aria-label="Main menu">
         <a href="#main-menu-toggle"
            id="main-menu-close"
@@ -38,6 +39,34 @@
        class="backdrop"
        tabindex="-1"
        aria-hidden="true" hidden></a>
+</header>-->
+  <header>
+   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="membership.html">Membership</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link" href="classes.html">Classes</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+        
+      </div>
+    </div>
+  </div>
+</nav>
 </header>
 <!--Top-Image-Sec-->
     <section id="top-image-main"> 
@@ -125,7 +154,7 @@
           </div>
        </div>
    </section>  
-   <!--Footer-Sec-->
+   <!--Footer-Sec--
   <footer class="footer-content">
      <div class="container">
           <div>
@@ -161,8 +190,53 @@
         </div>
           </div>
     </footer>
+-->
+   <footer>
+    <div class="container-fluid justify-content-center footer-content">
+  <div class="row align-items-center">
+    <div class="col-md col-lg-4 col-sm 12 col-xl-4">
+       <h2 class="address-head">Address</h2>
+          <address>
+            <p class="address-text">1280 Meriden-Waterbury 
+                <br>Tpke Plantsville, CT 06479
+                <br>kim@american-gymnastics.net
+                <br>Tel: 860.621.5001
+                <br>Fax: 860.628.0626
+            </p>
+        </address>
+    </div>
+    <div class="col-md col-lg-4 col-sm-12 col-xl-4">
+       
+        <ul class="bottom-block">
+            <li><a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-square social"></i></a></li>
+            <li><a href="http://www.twitter.com" target="_blank" ><i class="fab fa-twitter-square social"></i></a></li>
+            <li><a href="http://www.youtube.com" target="_blank" ><i class="fab fa-youtube-square social"></i></a></li>
+            <li><a href="http://www.instagram.com" target="_blank" ><i class="fab fa-instagram-square social"></i></a></li>
+        </ul> 
+        
+    </div>
+    <div class="col-md col-lg-4 col-sm-12 col-xl-4">
+       <div>
+            <p class="open-h">Opening Hours</p>
+        <div>
+                 <table class="open-t">
+                    <tr><th>Monday</th><td>6am - 9pm</td></tr>
+                    <tr><th>Tuesday</th><td>6am - 9pm</td></tr>
+                    <tr><th>Wednesday</th><td>6am - 10pm</td></tr>
+                    <tr><th>Thursday</th><td>6am - 10pm</td></tr>
+                    <tr><th>Friday</th><td>6am - 10pm</td></tr>
+                    <tr><th>Saturday</th><td>9am - 6pm</td></tr>
+                    <tr><th>Sunday</th><td>10am - 6pm</td></tr>
+                 </table>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+</footer>
       <div class="copy-r">
           <p>Copyright &copy; Istvan78 2021 GymTea</p> 
       </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
    </body>
 </html>

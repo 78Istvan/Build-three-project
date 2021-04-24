@@ -9,7 +9,7 @@ body {
 *{
     font-family: "Noto Sans JP", sans-serif;
 }
-/*--navbar styling--*/ 
+/*--navbar styling--
 li {
     margin-right: 0.5em;
 }
@@ -39,7 +39,21 @@ a:hover {
     overflow-y: unset;
 }
 /*--Top-Image-and text--*/
-   
+/*---Navbar----*/
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: rgba(0,0,0,.1);
+}
+/*--Navbar-----*/
 .top-image {
     padding: 150px 0;
     border: 2px;
@@ -239,7 +253,7 @@ p {
     align-self: center;
 }
 
-/*--Footer-Section--*/
+/*--Footer-Section--
 
 .container {
     display: flex;
@@ -287,7 +301,57 @@ address {
     margin: 40px 0 40px;
     color: #A9A9A9;;
 }
+*/
+.open-t {
+    color: #A9A9A9;
+    font-size: larger;
+    margin-top: 10px;
+    text-align: center;
+}
+.open-h {
+    font-size: 30px;
+    margin: 40px 0 40px;
+    color: #A9A9A9;
+    text-align: center;
+}
+.social {
+    color: #A9A9A9;
+    text-decoration: none;
+}
+.footer-content {
+    background-color: #000000;
+    color: #fff;
+}
+.bottom-block {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 250%;
+    margin-top: 10%;
+} 
 
+.bottom-block {
+    display: row;
+}
+.bottom-block a:hover {
+    color: #ffffff;
+}
+.bottom-block i {
+    font-size: 140%;
+   
+}
+.address-head {
+    color: #A9A9A9;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: none;
+    padding-bottom: 3rem;
+}
+.address-text {
+    text-align: center;
+    font-size: large;
+}
 /*--Copyright--*/
 
 .copy-r {
