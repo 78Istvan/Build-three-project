@@ -137,3 +137,5 @@ The project was deployed to GitHub Pages using the following steps...
   * Coders Coffee House
 
   * Resume Bootstrap project
+
+  * python3 -m http.server

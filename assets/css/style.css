@@ -532,14 +532,14 @@ input[type=text], textarea {
     padding: 10px;
     border: 2px solid #fb4f14;
     background-color: #fff;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 input[type=email] {
     width: 55%;
     padding: 10px;
     border: 2px solid #fb4f14;
     background-color: #fff;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 .label-art {
     color: #ffffff;
@@ -574,7 +574,7 @@ button {
     border: 1px solid #fb4f14;
 }
 .form-image {
-    background-image: url(https://wallpaperxyz.com/wp-content/uploads/Fitness-Girls-Sexy-HD-Wallpapers-Free-Download-Wallpaperxyz.com-12.jpg);
+    background-image: url(../images/contact-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -770,14 +770,14 @@ input[type=text], textarea {
     padding: 10px;
     border: 2px solid #fb4f14;
     background-color: #fff;
-    opacity: 0.5;  
+    opacity: 0.9;  
 }
 input[type=email] {
     width: 100%;
     padding: 10px;
     border: 2px solid #fb4f14;
     background-color: #fff;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 }
 
