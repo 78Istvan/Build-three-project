@@ -9,36 +9,8 @@ body {
 *{
     font-family: "Noto Sans JP", sans-serif;
 }
-/*--navbar styling--
-li {
-    margin-right: 0.5em;
-}
-    
-li a {
-  padding: 0.25em 1em;
-  text-decoration: none;
-  color: #A9A9A9;
-  font-weight: 700;
-}
-a:hover {
-    color: #A9A9A9;
-}
-.navigation .active {
-    border-bottom-style: solid !important;
-    border-width: 1px !important;
-    border-color: #A9A9A9 !important;
-    
-}
-.middle {
-    color: #A9A9A9;
-}
-.main-nav {
-    background-color: #000000;
-}
-.main-menu {
-    overflow-y: unset;
-}
-/*--Top-Image-and text--*/
+
+
 /*---Navbar----*/
 .navbar-light .navbar-brand {
     color: #fff;
@@ -253,55 +225,7 @@ p {
     align-self: center;
 }
 
-/*--Footer-Section--
 
-.container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-.address-head {
-    color: #A9A9A9;
-    text-align: center;
-    margin-top: 40px;
-}
-.address-text {
-    text-align: center;
-    font-size: large;
-}
-address {
-    color: #A9A9A9;
-    margin-top: 40px;
-}
-.bottom-block {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    list-style-type: none;
-    font-size: 250%;
-    margin-top: 10%;
-} 
-.bottom-block a:hover {
-    color: #ffffff;
-}
-.bottom-block i {
-    font-size: 140%;
-   
-}
-.footer-content {
-    background-color: #000000;
-}
-.open-t {
-    color: #A9A9A9;
-    font-size: larger;
-    margin-top: 10px;
-}
-.open-h {
-    font-size: 30px;
-    margin: 40px 0 40px;
-    color: #A9A9A9;;
-}
-*/
 .open-t {
     color: #A9A9A9;
     font-size: larger;
@@ -473,7 +397,24 @@ address {
     background-position: center;
     height: 600px;
 }
+/*contact2*/
+.contact-section {
 
+}
+.contact-header {
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.contact-text-middle {
+    color: #fff;
+    text-align: center;
+}
+.gradient {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.7934524151457458) 39%, rgba(0,0,0,0.40129555240064774) 57%, rgba(111,111,113,1) 100%);
+}
 /*--Classes Sec Table--*/
 
 .table-risp {
