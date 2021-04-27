@@ -139,3 +139,7 @@ The project was deployed to GitHub Pages using the following steps...
   * Resume Bootstrap project
 
   * python3 -m http.server
+
+  *  [alt Wireframe pdf]("../images/wireframe1.pdf")
+
+  * [picture](trainer-6.jpg)
