@@ -12,18 +12,38 @@ body {
 
 
 /*---Navbar----*/
+.navbar-brand {
+    margin-right: 5rem;
+    font-size: 1.75rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
 .navbar-light .navbar-brand {
     color: #fff;
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: #fff;
+    font-size: 1.25rem;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
+    font-size: 1.25rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.25rem;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-size: 1.25rem;
 }
 .navbar-light .navbar-toggler {
     color: #fff;
     border-color: rgba(0,0,0,.1);
+}
+li a:active {
+    color: #fb4f14;
 }
 /*--Navbar-----*/
 .top-image {
