@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
-@import "navigation.css";
 
 body {
     margin: 0;
     padding: 0;
     border: 0;
+    overflow-x: hidden
 }
 *{
     font-family: "Noto Sans JP", sans-serif;
@@ -334,6 +334,7 @@ p {
 } 
 .mem-list {
     text-align: left;
+    padding-bottom: 2rem;
 }
 .group {
     width: auto;
@@ -343,84 +344,10 @@ p {
 }
 
 /*--Contact Page--*/
-
-.contact-about {
-    color: #000000;
-    text-align: center;
-    font-size: 40px;
-    text-transform: uppercase;
-    text-decoration: underline #fb4f14;
-    margin-bottom: 35px;
-}
-.contact-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.contact-img {
-    position: relative;
-    width: 300px;
-    left: 30px;
-    bottom: 60px;
-    display: contents;
-    width: 33%;
-}
-.text-center {
-    text-align: right;
-}
-#name-a {
-    text-align: left;
-    margin-bottom: 55px;
-}
-.contact-map {
-    width: 33%;
-}
-.contact-touch-text {
-    width: 60%;
-}
-.info {
-   color: #ffffff;
-}
-.telex {
-    color: #ffffff;
-    font-size: larger;
-}
-.contact-text {
-    margin-top: 400px;
-}
-.pain-img {
-    width: 10px;
-    height: 10px;
-}
-.contact-touch {
-    text-align: left;
-}
-.contact-touch h3 {
-    color: #4a4a4a;
-    font-size: 45px;
-    margin: 15px 0;
-    text-decoration: none;
-}
-.contact-text p {
-    color: #000000;
-    font-size: 25px;
-    padding: 5px;
-}
-#row-a {
-    padding-left: 200px;
-}
-.contact-bg-img {
-     background-image: url(../images/contact.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-}
-/*contact2*/
 .contact-section {
-
+    overflow-x: hidden;
 }
+
 .contact-header {
     color: #fff;
     margin-top: 2rem;
