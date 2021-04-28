@@ -19,13 +19,7 @@ body {
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
 }
-.navbar-light .navbar-brand {
-    color: #fff;
-}
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: #fff;
-    font-size: 1.25rem;
-}
+
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
     font-size: 1.25rem;
@@ -42,10 +36,15 @@ body {
     color: #fff;
     border-color: rgba(0,0,0,.1);
 }
-li a:active {
-    color: #fb4f14;
+a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
-/*--Navbar-----*/
+a:active {
+    text-decoration: underline;
+
+}
+/*--Header Backgroung IMG--*/
 .top-image {
     padding: 150px 0;
     border: 2px;
