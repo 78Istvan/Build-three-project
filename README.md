@@ -35,9 +35,15 @@ The website is designed to be responsive on most of the devices to give the best
 
 ## Wireframes 
 
-* [Balsamiq PDF](../images/wireframe1.pdf) 
+*  Balsamiq software was used to creat wireframes to my project. 
 
- * Tehere is some missing wireframe documentation becaus my Balsamiq free account expired
+* Wireframes are available to wiev on the following links-
+
+* Laptop screen [Balsamiq PNG](https://i.imgur.com/jjj0TOn.png) 
+
+* Tablet screen[Balsamiq PNG]
+
+* Phone screen[Balsamiq PNG]
 
 # Technologies used
 
@@ -47,10 +53,10 @@ The website is designed to be responsive on most of the devices to give the best
 * CSS3
 ## Frameworks, Libraries & Programs Used
 
-* [Bootstrap 3.3.7](https://blog.getbootstrap.com/2016/07/25/bootstrap-3-3-7-released/) and [Bootstrap 5.0.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+*  [Bootstrap 5.0.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
   * Bootstrap was used to assist with the responsiveness and styling of the website.
 * Hover:css
-  * Hover.css was used on the Social Media icons in the footer
+  * Hover.css was used on the Navbar with underline decoration
 * [Fontawesome](https://fontawesome.com/v4.7.0/)
   * Font Awesome was used for social icons
 * [Git](https://gitpod.io/workspaces/)
@@ -59,32 +65,32 @@ The website is designed to be responsive on most of the devices to give the best
   * GitHub is used to store the projects code after being pushed from Git.
 * [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQjw0caCBhCIARIsAGAfuMww-ltoyDwB6ZrAlyHF7kvDAEL_HD6_6Wdy3yEckSbSgu3D-SvI5QcaAthnEALw_wcB)
   * Balsamiq was used to create the wireframes during the design process.
+
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+### Manual Testing
+
+1. Navbar buttons
+
+1. Social icons
+
+1. Sign up form testing
+
+### Website responsiveness testing
+
+* To test my website to how responsive I used my own devices {Iphone8, Ipad6 10" ,IMacAir 13", Dell laptop 15"} firstly.
+
+* Secondly, I used two other free softwares 
+
+* [Responsinator](https://www.responsinator.com)
+                                    
+* [Responsive Website Design Tester](https://responsivedesignchecker.com/#home)
 
 ### Validator Testing
 
 * [W3C Markup Validate](https://validator.w3.org/)
+
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-
-### User experience Testing
-
-* The visitors can see a clear and straight forward menu bar on the top of the page. All the pages  are work fine on the tested browsers.
-
-* The project has been tested on Safari, Chrome, and Edge browsers and it is works fine on all of them.
-
-* There is a Sign Up form on the Classes page on the website where user can sign up for required classes.
-
-### Sign Up form test
-
-  * Fill up the form completely
-
-  * If user miss any fields to fill up the system will ask to complet it properly
-
-  * Email section need -email@- character otherwise user will be  warned again about the missing issue
-
-  * When all the fields are completed press sign up button to finish the procedure
 
 ### Further Testing
 
@@ -94,9 +100,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   ### Known Bugs
 
-   * When I used the website on small phone screen like iPhone8 or smaller, in the footer section the opening hours information font-size are smaller than on other pages. It happens on the Gallery and the Contact pages.
-
-   * Some HTML errors caused by Bootstrap code and the Map iframe code because it is obsolete.
+   * Some HTML warnings coused by the Bootstrap code
 
  ##  Deployment
 
@@ -123,10 +127,11 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Code
 
-* [Bootstrap 3.3.7](https://blog.getbootstrap.com/2016/07/25/bootstrap-3-3-7-released/) and [Bootstrap 5.0.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-  * Bootstrap was use in the navbar and the contact form section to make the website more responsible. 
+* [Bootstrap 5.0.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+  * Bootstrap was used in the navbar and the contact form, and the footer section too, and also bootstrap grid system have been added to create columns and rows around the site. 
+
 * [W3School](https://www.w3schools.com/) 
-   * some of the code ideas were taken from this page to find out how to solve problems or to use new coding technics.
+   * some of the code ideas were taken from W3Scool page to find out how to solve problems or to use new coding technics.
 
 ## Acknowledgements
 
@@ -138,8 +143,5 @@ The project was deployed to GitHub Pages using the following steps...
 
   * Resume Bootstrap project
 
-  * python3 -m http.server
-
-  *  [alt Wireframe pdf]("../images/wireframe1.pdf")
-
-  * [picture](trainer-6.jpg)
+ 
+  
