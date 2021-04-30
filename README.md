@@ -15,29 +15,40 @@ The website is designed to be responsive on most of the devices to give the best
 
 * First Time Visitors can easily navigate on the webpage to find essential information about a gym just like classes, prices, contact, and location.
 
-* First Time Visitors want to check their social media links to find out how popular and trustable the gym. They can see the number of followers, comments, good or bad feed backs, if they are following the gym social life.
+* First Time Visitors can use the gym's social media links to find out how popular and trustable the gym. They can see the number of followers, comments, good or bad feed backs, if they are following the gym social life.
 
+* First Time Visitors will get enough information about a gym to make them decison to join or not to the gym communiti life. 
+
+* First Time Visitors will see an easy and clear navigation bar, basic information in the 'about' section about the gym, main information such as prices, classes, location, contact infos, and an easy and simpl table with availabe classes and a sign up form straight underneat to make confortable and quick to join to the desiared sport program.
+
+* The creative used up images are encourageing the users to spend more time on the webpage which gives more opportunity to make a succesfull business with First Time Visitor.
 ### Returning users
 
-* Returning Users can renew their membership using the sign up form.
+* Returning Users can renew their membership using the signup form.
 
-* Returning Users can follow the time table about their classes.
+* Returning Users can follow the timetable about their classes.
 
 * Returning Users can enjoy the gym community to visit the gym gallery page regularly.
 
+* This is an easy use website with all the importent contents like the classes table, the signup form, the colorfull pictures, and the very parctical navbar so a returning cutomor will be able to manage whatever changes are neeeds to be done. 
+
 ## Design 
 
-* Black and white colours have been used to make a big contrast with a little orange to make a little different, and highlight some text.
+* Black and white colours have been used to make a big contrast with a little orange to make a little different and highlight some text.
 
-* The Nato Sans JP font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+* The Nato Sans JP font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font is not being imported into the site correctly.
  
-* Home page image is an energetic strong image in the middle of the page to tell any visitor what is the main profile of the website.
+* Home page image is an energetic strong image in the middle of the page to tell the visitor what is the main profile of the website.
+
+* Allof the pages are very clear without any confusing content. Every page contains only the title of the page with all the necesary information. 
+
+* The aim is to give the most information, wrapped in an elegant design.
 
 ## Wireframes 
 
-*  Balsamiq software was used to creat wireframes to my project. 
+* Balsamiq software was used to create wireframes to my project. 
 
-* Wireframes are available to wiev on the following links-
+* Wireframes are available to view on the following links-
 
 * Laptop screen [Balsamiq PNG](https://i.imgur.com/jjj0TOn.png) 
 
@@ -70,17 +81,28 @@ The website is designed to be responsive on most of the devices to give the best
 
 ### Manual Testing
 
-1. Navbar buttons
+1. Navbar buttons:
 
-1. Social icons
+* The navigation buttons allowed the user to switch between the pages. The buttons have hover effect so when the cursor is above the button, the button gets an under line decoration. The navbar is on the very top of the page wich turn to a scroll down menu on small device.
+The menubar is fixed to the top to make an easer usage when the page scrolled down especially on small screens.
 
-1. Sign up form testing
+2. Social icons:
 
+* When social icons are clicked, the browser takes the user to the linked social platform. The social icons code has the 'noreferrel' code to the site security.
+
+3. Sign up form testing:
+
+* The classes page has a signup form wich helps the user to join to a class. The classes table is placed above the form so the user can see what are the available options about the classes and sign up then to the choosen class on the same page.
+Sign up form has placeholders to make easer to fill them up, and gives a little warning to fill up the form with the correct information, don't leave it blank.
+
+4. Images responsiveness testing:
+
+* The used images are not streched or pixeld on large or small screen eather. They are appear on the right size and they make the site more attractive. Contact page middle section image has benn edited to fit in the middle on small screen.
 ### Website responsiveness testing
 
 * To test my website to how responsive I used my own devices {Iphone8, Ipad6 10" ,IMacAir 13", Dell laptop 15"} firstly.
 
-* Secondly, I used two other free softwares 
+* Secondly, I used two other free software
 
 * [Responsinator](https://www.responsinator.com)
                                     
@@ -94,13 +116,11 @@ The website is designed to be responsive on most of the devices to give the best
 
 ### Further Testing
 
-  * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-
-  * A large amount of testing was done to ensure that all pages were linking correctly.
+  * Few of my friends and family members helped me testing on them on devices, and they shared them own opinion about my project.
 
   ### Known Bugs
 
-   * Some HTML warnings coused by the Bootstrap code
+   * Some HTML warnings caused by the Bootstrap code
 
  ##  Deployment
 
@@ -121,6 +141,10 @@ The project was deployed to GitHub Pages using the following steps...
 
 * Images were copied after google search used the key word _Gym images_.
 
+* Images were copied from [Unsplash](https://unsplash.com/) to get reasonable quality
+
+* Created image addresses with [Imgur](https://imgur.com/)
+
 ### Content
 
 * The text was created by the author.
@@ -131,17 +155,18 @@ The project was deployed to GitHub Pages using the following steps...
   * Bootstrap was used in the navbar and the contact form, and the footer section too, and also bootstrap grid system have been added to create columns and rows around the site. 
 
 * [W3School](https://www.w3schools.com/) 
-   * some of the code ideas were taken from W3Scool page to find out how to solve problems or to use new coding technics.
+   * Some of the code ideas were taken from W3Scool page to find out how to solve problems or to use new coding technics.
 
 ## Acknowledgements
 
 * I received inspiration for this project from 
 
-  * Love Runnung
+  * Love Running
 
   * Coders Coffee House
 
   * Resume Bootstrap project
 
- 
+ This project was a big challane and a great opportunity to get more practic in CSS/HTML coding and get more knowlidge about the [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) framework.
   
+
