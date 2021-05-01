@@ -62,7 +62,7 @@ a:active {
     background-color: #000000;
     
 }
-}
+
 
 .motivation {
     text-align: center;
@@ -278,9 +278,6 @@ p {
     margin-top: 10%;
 } 
 
-.bottom-block {
-    display: row;
-}
 .bottom-block a:hover {
     color: #ffffff;
 }
