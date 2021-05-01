@@ -58,8 +58,10 @@ a:active {
 }
 #top-image-main {
     height: 610px;
-    padding-top: 65px;
+    padding-top: 40px;
     background-color: #000000;
+    
+}
 }
 
 .motivation {
@@ -185,6 +187,7 @@ h3 {
 
 .about-content {
     background-color: #000000;
+    padding-top: 1rem;
 }
 .grid-container {
     display: grid;
@@ -626,6 +629,7 @@ address p {
 }
 .mem-container {
     flex-wrap: wrap;
+    padding-top: 1rem;
 }
 .mem-heading {
     text-align: center;
