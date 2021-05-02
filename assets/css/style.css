@@ -418,14 +418,12 @@ label input[type="radio"] {
 input[type=text], textarea {
     width: 55%;
     padding: 10px;
-    border: 2px solid #fb4f14;
     background-color: #fff;
     opacity: 0.9;
 }
 input[type=email] {
     width: 55%;
     padding: 10px;
-    border: 2px solid #fb4f14;
     background-color: #fff;
     opacity: 0.9;
 }
@@ -443,8 +441,6 @@ label {
     color: #ffffff;
 }
 button {
-    color: #fb4f14;
-    border: 1px solid #fb4f14;
     align-items: flex-start;
 }
 .form-radio {
@@ -458,9 +454,7 @@ button {
     margin-top: 20px;
     padding-bottom: 20px;
 }
-.btn {
-    border: 1px solid #fb4f14;
-}
+
 .form-image {
     background-image: url(../images/contact-3.jpg);
     background-repeat: no-repeat;
@@ -657,14 +651,12 @@ address p {
 input[type=text], textarea {
     width: 100%;
     padding: 10px;
-    border: 2px solid #fb4f14;
     background-color: #fff;
     opacity: 0.9;  
 }
 input[type=email] {
     width: 100%;
     padding: 10px;
-    border: 2px solid #fb4f14;
     background-color: #fff;
     opacity: 0.9;
 }
