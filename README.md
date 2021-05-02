@@ -19,7 +19,7 @@ The website is designed to be responsive on most of the devices to give the best
 
 * First Time Visitors will get enough information about a gym to make them decison to join or not to the gym communiti life. 
 
-* First Time Visitors will see an easy and clear navigation bar, basic information in the 'about' section about the gym, main information such as prices, classes, location, contact infos, and an easy and simpl table with availabe classes and a sign up form straight underneat to make confortable and quick to join to the desiared sport program.
+* First Time Visitors will see an easy and clear navigation bar, with the basic information in the 'about' section about the gym and trainers on the HOME navigation page. The main information such as prices, classes, location, contact infos are availabe on different pages. 
 
 * The creative used up images are encourageing the users to spend more time on the webpage which gives more opportunity to make a succesfull business with First Time Visitor.
 ### Returning users
@@ -30,7 +30,7 @@ The website is designed to be responsive on most of the devices to give the best
 
 * Returning Users can enjoy the gym community to visit the gym gallery page regularly.
 
-* This is an easy use website with all the importent contents like the classes table, the signup form, the colorfull pictures, and the very parctical navbar so a returning cutomor will be able to manage whatever changes are neeeds to be done. 
+* This is an easy use website with all the importent contents like the classes table, the signup form, the colorfull pictures, and the very parctical navbar so a returning customer will be able to manage whatever changes are neeeds to be done. 
 
 ## Design 
 
@@ -40,7 +40,7 @@ The website is designed to be responsive on most of the devices to give the best
  
 * Home page image is an energetic strong image in the middle of the page to tell the visitor what is the main profile of the website.
 
-* Allof the pages are very clear without any confusing content. Every page contains only the title of the page with all the necesary information. 
+* All of the pages are very clear without any confusing content. Every page contains only the title of the page with all the necessary information. 
 
 * The aim is to give the most information, wrapped in an elegant design.
 
@@ -92,7 +92,7 @@ The menubar is fixed to the top to make an easer usage when the page has to be s
 
 3. Sign up form testing:
 
-* The classes page has a signup form wich helps the user to join to a class. The classes table is placed above the form so the user can see what are the available options about the classes and sign up then to the choosen class on the same page.
+* The classes page has a signup form which helps the user to join to a class. The classes table is placed above the form so the user can see what are the available options about the classes and sign up then to the choosen class on the same page.
 Sign up form has placeholders to make easer to fill them up, and gives a little hint to the user how to fill the form, and  don't leave it blank. Email section givs a warning to the user to use the '@' caracter in the section other wise it will not be valid.
 
 4. Images responsiveness testing:
@@ -117,13 +117,13 @@ Sign up form has placeholders to make easer to fill them up, and gives a little 
 
 ### Browser Testing
 
-* the projct was tested on Mozilla Firefox, Microsoft Edge, Google Chrome, and Apple Safari browsers.
+* The project was tested on Mozilla Firefox, Microsoft Edge, Google Chrome, and Apple Safari browsers.
 
 ### Further Testing
 
-  * Few of my friends and family members helped me testing on them on devices, and they shared them own opinion about my project.
+  * Few of my friends and family members helped me testing on their on devices, and they shared their own opinion about my project.
 
-  ### Known Bugs
+### Known Bugs
 
    * 17 CSS errors apperad when the project URL was checked in the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F78istvan.github.io%2FBuild-three-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en), but all these errors was caused by the Bootstrap code wich was used all around the project, and these code blocks are works fine in the project.The used code blocks were downloaded from the official [Bootstrap](https://getbootstrap.com/) page.
 
