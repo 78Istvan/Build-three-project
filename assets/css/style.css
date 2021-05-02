@@ -289,7 +289,7 @@ p {
     color: #A9A9A9;
     text-align: center;
     margin-top: 0;
-    margin-bottom: none;
+    margin-bottom: 0;
     padding-bottom: 3rem;
 }
 .address-text {
