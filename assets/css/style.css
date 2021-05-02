@@ -362,6 +362,24 @@ p {
    background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,0.7934524151457458) 58%, rgba(0,0,0,0.40129555240064774) 97%, rgba(111,111,113,1) 100%);
 }
+.contact-p {
+    color: #fff;
+}
+.contact-h3 {
+    color: #A9A9A9;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+.contact-h2 {
+    color: #fff;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+     
+}
 /*--Classes Sec Table--*/
 
 .table-risp {
