@@ -84,7 +84,7 @@ The website is designed to be responsive on most of the devices to give the best
 1. Navbar buttons:
 
 * The navigation buttons allowed the user to switch between the pages. The buttons have hover effect so when the cursor is above the button, the button gets an under line decoration. The navbar is on the very top of the page wich turn to a scroll down menu on small device.
-The menubar is fixed to the top to make an easer usage when the page scrolled down especially on small screens.
+The menubar is fixed to the top to make an easer usage when the page has to be scroll down especially on small screens when the page can be vertical long.
 
 2. Social icons:
 
@@ -93,14 +93,15 @@ The menubar is fixed to the top to make an easer usage when the page scrolled do
 3. Sign up form testing:
 
 * The classes page has a signup form wich helps the user to join to a class. The classes table is placed above the form so the user can see what are the available options about the classes and sign up then to the choosen class on the same page.
-Sign up form has placeholders to make easer to fill them up, and gives a little warning to fill up the form with the correct information, don't leave it blank.
+Sign up form has placeholders to make easer to fill them up, and gives a little hint to the user how to fill the form, and  don't leave it blank. Email section givs a warning to the user to use the '@' caracter in the section other wise it will not be valid.
 
 4. Images responsiveness testing:
 
-* The used images are not streched or pixeld on large or small screen eather. They are appear on the right size and they make the site more attractive. Contact page middle section image has benn edited to fit in the middle on small screen.
+* The used images are not streched or pixeld on large or small screen either. They are appear on the right size and they make the site more attractive. Contact page middle section image has benn edited to fit in the middle on small screen.
+
 ### Website responsiveness testing
 
-* To test my website to how responsive I used my own devices {Iphone8, Ipad6 10" ,IMacAir 13", Dell laptop 15"} firstly.
+* Firstly, to test my website to how responsive I used my own devices {Iphone8, Ipad6 10" ,IMacAir 13", Dell laptop 15"}.
 
 * Secondly, I used two other free software
 
@@ -114,13 +115,18 @@ Sign up form has placeholders to make easer to fill them up, and gives a little 
 
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
+### Browser Testing
+
+* the projct was tested on Mozilla Firefox, Microsoft Edge, Google Chrome, and Apple Safari browsers.
+
 ### Further Testing
 
   * Few of my friends and family members helped me testing on them on devices, and they shared them own opinion about my project.
 
   ### Known Bugs
 
-   * Some HTML warnings caused by the Bootstrap code
+   * 17 CSS errors apperad when the project URL was checked in the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F78istvan.github.io%2FBuild-three-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en), but all these errors was caused by the Bootstrap code wich was used all around the project, and these code blocks are works fine in the project.The used code blocks were downloaded from the official [Bootstrap](https://getbootstrap.com/) page.
+
 
  ##  Deployment
 
