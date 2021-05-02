@@ -50,11 +50,11 @@ The website is designed to be responsive on most of the devices to give the best
 
 * Wireframes are available to view on the following links-
 
-* Laptop screen [Balsamiq PNG](https://i.imgur.com/jjj0TOn.png) 
+* Laptop screen [Balsamiq PNG](https://i.imgur.com/5YIVKBP.png) 
 
-* Tablet screen[Balsamiq PNG]
+* Tablet screen[Balsamiq PNG](https://i.imgur.com/m70q8jY.png)
 
-* Phone screen[Balsamiq PNG]
+* Phone screen[Balsamiq PNG](https://i.imgur.com/gvsFN16.png)
 
 # Technologies used
 
