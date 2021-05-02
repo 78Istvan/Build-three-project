@@ -380,6 +380,10 @@ background: linear-gradient(90deg, rgba(0,0,0,0.7934524151457458) 58%, rgba(0,0,
     text-transform: capitalize;
      
 }
+
+.form-control {
+    text-align: center;
+}
 /*--Classes Sec Table--*/
 
 .table-risp {
